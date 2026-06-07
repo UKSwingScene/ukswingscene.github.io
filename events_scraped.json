@@ -1,159 +1,5 @@
 [
   {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Partners",
-    "city": "Bury, Manchester",
-    "cls": "partners",
-    "event": "Tacos & Tequila",
-    "url": "https://partnersswingersclub.com/events/",
-    "desc": "Tacos & Tequila at Partners, Bury, Manchester. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "Rock N Metal Night",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "Rock N Metal Night at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Club Play",
-    "city": "Blackpool",
-    "cls": "clubplay",
-    "event": "Broadway After Midnight",
-    "url": "https://clubplay.net/events/saturday-6th-june-2026-%f0%9f%8e%ad-broadway-after-midnight/",
-    "desc": "Broadway After Midnight at Club Play, Blackpool. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "Foam Party",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "Foam Party at Xtasia, West Bromwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "COUPLES AND SINGLE LADIES PLAY PARTY WITH ALYRA AND VEE - BACK TO THE 80'S",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "COUPLES AND SINGLE LADIES PLAY PARTY WITH ALYRA AND VEE - BACK TO THE 80'S at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Swindon SC",
-    "city": "Swindon",
-    "cls": "swindon",
-    "event": "WICKED: T I C K E T S",
-    "url": "https://swindonswingers.com/swindon-swingers-club-wicked-couples-event/",
-    "desc": "WICKED: T I C K E T S at Swindon SC, Swindon. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Club Alchemy",
-    "city": "Northwich",
-    "cls": "alchemy",
-    "event": "Curve Nation",
-    "url": "https://www.clubalchemy.co.uk/events/curve-nation-2026-06-06-hvYh",
-    "desc": "Curve Nation at Club Alchemy, Northwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Alternative Affair &#8211; Download Festival",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
-    "desc": "Alternative Affair &#8211; Download Festival at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Purple Mamba",
-    "city": "Nottingham",
-    "cls": "mamba",
-    "event": "Sinsational",
-    "url": "https://www.purplemambaclub.com/what-s-on-tickets",
-    "desc": "Sinsational at Purple Mamba, Nottingham. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Le Boudoir",
-    "city": "City of London",
-    "cls": "leboudoir",
-    "event": "KISS with INTRODUCTORY NEWBIE HOURS",
-    "url": "https://leboudoir.club/events/83017",
-    "desc": "KISS with INTRODUCTORY NEWBIE HOURS at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Penthouse Playrooms",
-    "city": "Dunstable",
-    "cls": "penthouse",
-    "event": "BMFC - Positive Vibes At Penthouse",
-    "url": "https://penthouse-playrooms.co.uk/events",
-    "desc": "BMFC - Positive Vibes At Penthouse at Penthouse Playrooms, Dunstable. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Couples &#038; Ladies ONLY Saturday Party",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Couples &#038; Ladies ONLY Saturday Party at Club Ignite, West Drayton. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "atlantisEVOLUTION",
-    "city": "Stoke-on-Trent",
-    "cls": "atlantis",
-    "event": "It\u2019s Saturday - Come Meet Come Mingle - Come Dance - Come Play",
-    "url": "http://www.atlantisevolution.co.uk/calendar.htm",
-    "desc": "It\u2019s Saturday - Come Meet Come Mingle - Come Dance - Come Play at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-06",
-    "m": "jun",
-    "day": "Saturday 6 June 2026",
-    "club": "V2V",
-    "city": "Nuneaton, Warwickshire",
-    "cls": "v2v",
-    "event": "Ministry Of Sin",
-    "url": "https://v2v.uk/events/ministry-of-sin",
-    "desc": "Ministry Of Sin at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
-  },
-  {
     "d": "2026-06-07",
     "m": "jun",
     "day": "Sunday 7 June 2026",
@@ -179,22 +25,11 @@
     "d": "2026-06-07",
     "m": "jun",
     "day": "Sunday 7 June 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "TOOTSIES- FOOT, SHOE AND BOOT WORSHIP EVENT",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "TOOTSIES- FOOT, SHOE AND BOOT WORSHIP EVENT at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-07",
-    "m": "jun",
-    "day": "Sunday 7 June 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -207,17 +42,6 @@
     "event": "Flirts: FFM/ Friends, Fun & More",
     "url": "https://www.xtasia.co.uk/page/2-months-diary",
     "desc": "Flirts: FFM/ Friends, Fun & More at Xtasia, West Bromwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-09",
-    "m": "jun",
-    "day": "Tuesday 9 June 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "WIRRAL MUNCH FT. THE ROPE SOCIAL",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "WIRRAL MUNCH FT. THE ROPE SOCIAL at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
   },
   {
     "d": "2026-06-10",
@@ -240,17 +64,6 @@
     "event": "our dedicated bisexual day, all steam",
     "url": "https://www.pandoraswingers.com/event-diary",
     "desc": "our dedicated bisexual day, all steam at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-11",
-    "m": "jun",
-    "day": "Thursday 11 June 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "NEWBIES & NOTSOS PARTY NIGHT WITH GUEST HOSTS CHRIS AND YVONNE!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "NEWBIES & NOTSOS PARTY NIGHT WITH GUEST HOSTS CHRIS AND YVONNE! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
   },
   {
     "d": "2026-06-11",
@@ -337,7 +150,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -380,9 +193,9 @@
     "club": "atlantisEVOLUTION",
     "city": "Stoke-on-Trent",
     "cls": "atlantis",
-    "event": "Established June 2010 Club\u2019s \u201816th\u2019 Birthday",
+    "event": "16 Years of MEGA Swinging Fun Established June 2010 Party | Games| Buffet |Prizes Fun | Dress to Par",
     "url": "http://www.atlantisevolution.co.uk/calendar.htm",
-    "desc": "Established June 2010 Club\u2019s \u201816th\u2019 Birthday at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
+    "desc": "16 Years of MEGA Swinging Fun Established June 2010 Party | Games| Buffet |Prizes Fun | Dress to Party! Extended \u2018Popula at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
   },
   {
     "d": "2026-06-12",
@@ -465,17 +278,6 @@
     "d": "2026-06-13",
     "m": "jun",
     "day": "Saturday 13 June 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "DEPRAVITY - HARDCORE BDSM FOR THE TWISTED!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "DEPRAVITY - HARDCORE BDSM FOR THE TWISTED! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-13",
-    "m": "jun",
-    "day": "Saturday 13 June 2026",
     "club": "Swindon SC",
     "city": "Swindon",
     "cls": "swindon",
@@ -491,7 +293,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Naughties",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Naughties at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -575,22 +377,11 @@
     "d": "2026-06-14",
     "m": "jun",
     "day": "Sunday 14 June 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "SCHOOL OF KINK - DOMINATRIX SPECIAL EDITION!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "SCHOOL OF KINK - DOMINATRIX SPECIAL EDITION! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-14",
-    "m": "jun",
-    "day": "Sunday 14 June 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "The CMnf Organisation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "The CMnf Organisation at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -689,7 +480,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -795,17 +586,6 @@
     "d": "2026-06-20",
     "m": "jun",
     "day": "Saturday 20 June 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "TOWNHOUSE LOUD AND PROUD PRIDE PARTY",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "TOWNHOUSE LOUD AND PROUD PRIDE PARTY at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-20",
-    "m": "jun",
-    "day": "Saturday 20 June 2026",
     "club": "Swindon SC",
     "city": "Swindon",
     "cls": "swindon",
@@ -821,7 +601,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "LiberateD",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "LiberateD at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -900,17 +680,6 @@
     "event": "PRIDE PARTY",
     "url": "https://www.chunkymuffins.co.uk/post/pride-party",
     "desc": "PRIDE PARTY at Chunky Muffins, Boston, Lincolnshire. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-21",
-    "m": "jun",
-    "day": "Sunday 21 June 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "SPLAT! SUNDAY SPLOSHING PARTY WITH MESSY PUP GUNGE!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "SPLAT! SUNDAY SPLOSHING PARTY WITH MESSY PUP GUNGE! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
   },
   {
     "d": "2026-06-24",
@@ -993,22 +762,11 @@
     "d": "2026-06-26",
     "m": "jun",
     "day": "Friday 26 June 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "FRIDAY NIGHT TIPSY UNICORN - QUIZ NIGHT, SOCIAL AND SWINGING!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "FRIDAY NIGHT TIPSY UNICORN - QUIZ NIGHT, SOCIAL AND SWINGING! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-26",
-    "m": "jun",
-    "day": "Friday 26 June 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1147,22 +905,11 @@
     "d": "2026-06-27",
     "m": "jun",
     "day": "Saturday 27 June 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "SATURDAY NIGHT NEWBIES & NOTSO'S WITH LIVE MUSIC & KARAOKE!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "SATURDAY NIGHT NEWBIES & NOTSO'S WITH LIVE MUSIC & KARAOKE! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-06-27",
-    "m": "jun",
-    "day": "Saturday 27 June 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1261,7 +1008,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Swing Into It Social",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Swing Into It Social at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1389,22 +1136,11 @@
     "d": "2026-07-03",
     "m": "jul",
     "day": "Friday 3 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "RADICAL DESIRE AT TOWNHOUSE - THE ORIGINAL TOWNHOUSE KINK EVENT!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "RADICAL DESIRE AT TOWNHOUSE - THE ORIGINAL TOWNHOUSE KINK EVENT! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-03",
-    "m": "jul",
-    "day": "Friday 3 July 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Libertine",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Libertine at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1510,17 +1246,6 @@
     "d": "2026-07-04",
     "m": "jul",
     "day": "Saturday 4 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "RE-FOCUS - CONTENT EVENT AT TOWNHOUSE",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "RE-FOCUS - CONTENT EVENT AT TOWNHOUSE at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-04",
-    "m": "jul",
-    "day": "Saturday 4 July 2026",
     "club": "Swindon SC",
     "city": "Swindon",
     "cls": "swindon",
@@ -1547,8 +1272,19 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Passion Casino",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Passion Casino at Liberty Elite, Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-07-04",
+    "m": "jul",
+    "day": "Saturday 4 July 2026",
+    "club": "Purple Mamba",
+    "city": "Nottingham",
+    "cls": "mamba",
+    "event": "The West Bridgerton Ball",
+    "url": "https://www.purplemambaclub.com/what-s-on-tickets",
+    "desc": "The West Bridgerton Ball at Purple Mamba, Nottingham. Visit the website for full details and booking."
   },
   {
     "d": "2026-07-04",
@@ -1598,34 +1334,12 @@
     "d": "2026-07-05",
     "m": "jul",
     "day": "Sunday 5 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "OBEY - HIGH PROTOCOL EVENT AT TOWNHOUSE",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "OBEY - HIGH PROTOCOL EVENT AT TOWNHOUSE at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-05",
-    "m": "jul",
-    "day": "Sunday 5 July 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-06",
-    "m": "jul",
-    "day": "Monday 6 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "MILF MONDAY - THE OG OF DAYTIME DEBAUCHERY",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "MILF MONDAY - THE OG OF DAYTIME DEBAUCHERY at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
   },
   {
     "d": "2026-07-07",
@@ -1648,17 +1362,6 @@
     "event": "our dedicated bisexual day, all steam",
     "url": "https://www.pandoraswingers.com/event-diary",
     "desc": "our dedicated bisexual day, all steam at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-09",
-    "m": "jul",
-    "day": "Thursday 9 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "NEWBIES & NOTSOS PARTY NIGHT WITH GUEST HOSTS CHRIS AND YVONNE!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "NEWBIES & NOTSOS PARTY NIGHT WITH GUEST HOSTS CHRIS AND YVONNE! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
   },
   {
     "d": "2026-07-09",
@@ -1697,22 +1400,11 @@
     "d": "2026-07-10",
     "m": "jul",
     "day": "Friday 10 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "FET-ISH BDSM & SWINGING CROSSOVER PLAY PARTY - WITH NEW HOSTS!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "FET-ISH BDSM & SWINGING CROSSOVER PLAY PARTY - WITH NEW HOSTS! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-10",
-    "m": "jul",
-    "day": "Friday 10 July 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Temptation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Temptation at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1766,9 +1458,9 @@
     "club": "Pandoras",
     "city": "Armley, Leeds",
     "cls": "pandora",
-    "event": "HU9 are joining us at Pandora tonight to start the countdown to",
+    "event": "HU9 are joining us at Pandora tonight to",
     "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "HU9 are joining us at Pandora tonight to start the countdown to at Pandoras, Armley, Leeds. Visit the website for full details and booking."
+    "desc": "HU9 are joining us at Pandora tonight to at Pandoras, Armley, Leeds. Visit the website for full details and booking."
   },
   {
     "d": "2026-07-11",
@@ -1785,22 +1477,11 @@
     "d": "2026-07-11",
     "m": "jul",
     "day": "Saturday 11 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "FCKD! HEAVY PLAY PARTY WITH BRETT AND VEE",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "FCKD! HEAVY PLAY PARTY WITH BRETT AND VEE at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-11",
-    "m": "jul",
-    "day": "Saturday 11 July 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Ultimate Kink",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Ultimate Kink at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1862,22 +1543,11 @@
     "d": "2026-07-12",
     "m": "jul",
     "day": "Sunday 12 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "SCHOOL OF KINK ROPE - BEGINNERS PT. 2 FT. NEW CLASSES!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "SCHOOL OF KINK ROPE - BEGINNERS PT. 2 FT. NEW CLASSES! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-12",
-    "m": "jul",
-    "day": "Sunday 12 July 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Sunday Funday",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Sunday Funday at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1917,17 +1587,6 @@
     "d": "2026-07-16",
     "m": "jul",
     "day": "Thursday 16 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "LUST - THE SWINGING PARTY FOR HOTWIVES, CUCKS, VIXENS AND GROUP FUN!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "LUST - THE SWINGING PARTY FOR HOTWIVES, CUCKS, VIXENS AND GROUP FUN! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-16",
-    "m": "jul",
-    "day": "Thursday 16 July 2026",
     "club": "Club Ignite",
     "city": "West Drayton",
     "cls": "ignite",
@@ -1950,22 +1609,11 @@
     "d": "2026-07-17",
     "m": "jul",
     "day": "Friday 17 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "RUBY SLIPPERS ALL FEMALE PLAY PARTY AT TOWNHOUSE",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "RUBY SLIPPERS ALL FEMALE PLAY PARTY AT TOWNHOUSE at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-17",
-    "m": "jul",
-    "day": "Friday 17 July 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2060,17 +1708,6 @@
     "d": "2026-07-18",
     "m": "jul",
     "day": "Saturday 18 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "AMPED AT TOWNHOUSE - A NIGHT OF ROCK, METAL AND CHAOS!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "AMPED AT TOWNHOUSE - A NIGHT OF ROCK, METAL AND CHAOS! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-18",
-    "m": "jul",
-    "day": "Saturday 18 July 2026",
     "club": "Club Alchemy",
     "city": "Northwich",
     "cls": "alchemy",
@@ -2086,7 +1723,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Liberty Lounge",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Liberty Lounge at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2137,17 +1774,6 @@
     "d": "2026-07-19",
     "m": "jul",
     "day": "Sunday 19 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "WHIMPER AN AFTERNOON OF FEMDOM WITH LADY ARTEMIS & SILVERSMUDGE",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "WHIMPER AN AFTERNOON OF FEMDOM WITH LADY ARTEMIS & SILVERSMUDGE at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-19",
-    "m": "jul",
-    "day": "Sunday 19 July 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
@@ -2174,7 +1800,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Temptation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Temptation at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2239,9 +1865,9 @@
     "club": "Pandoras",
     "city": "Armley, Leeds",
     "cls": "pandora",
-    "event": "The Glam and G.Lorious Reflex",
+    "event": "The Glam and",
     "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "The Glam and G.Lorious Reflex at Pandoras, Armley, Leeds. Visit the website for full details and booking."
+    "desc": "The Glam and at Pandoras, Armley, Leeds. Visit the website for full details and booking."
   },
   {
     "d": "2026-07-25",
@@ -2269,17 +1895,6 @@
     "d": "2026-07-25",
     "m": "jul",
     "day": "Saturday 25 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "HOUSE PARTY - YOUR ULTIMATE SATURDAY NIGHT PARTY!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "HOUSE PARTY - YOUR ULTIMATE SATURDAY NIGHT PARTY! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-25",
-    "m": "jul",
-    "day": "Saturday 25 July 2026",
     "club": "Club Alchemy",
     "city": "Northwich",
     "cls": "alchemy",
@@ -2295,7 +1910,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Pool Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Pool Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2330,17 +1945,6 @@
     "event": "Liquorice & Lace",
     "url": "https://v2v.uk/events/liqorice-lace",
     "desc": "Liquorice & Lace at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-26",
-    "m": "jul",
-    "day": "Sunday 26 July 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "LITTLES' SUMMER PARTY AT TOWNHOUSE",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "LITTLES' SUMMER PARTY AT TOWNHOUSE at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
   },
   {
     "d": "2026-07-26",
@@ -2405,7 +2009,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2460,7 +2064,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "LiberateD",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "LiberateD at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2493,7 +2097,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2526,7 +2130,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Queens of the Scene",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Queens of the Scene at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2570,7 +2174,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2614,7 +2218,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Hot Garage Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Hot Garage Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2669,7 +2273,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2698,22 +2302,11 @@
     "d": "2026-08-21",
     "m": "aug",
     "day": "Friday 21 August 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "QUEER SPACE - A QUEER PLAY PARTY WITH SPACE FOR ALL!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "QUEER SPACE - A QUEER PLAY PARTY WITH SPACE FOR ALL! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-21",
-    "m": "aug",
-    "day": "Friday 21 August 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2746,7 +2339,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Movie Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Movie Night at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2786,22 +2379,11 @@
     "d": "2026-08-23",
     "m": "aug",
     "day": "Sunday 23 August 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "BRANDED AT TOWNHOUSE - INVITE ONLY HARDCORE BDSM EVENT",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "BRANDED AT TOWNHOUSE - INVITE ONLY HARDCORE BDSM EVENT at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-23",
-    "m": "aug",
-    "day": "Sunday 23 August 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2819,22 +2401,11 @@
     "d": "2026-08-28",
     "m": "aug",
     "day": "Friday 28 August 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "RIDIN SOLO - SINGLES PARTY NIGHT!",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "RIDIN SOLO - SINGLES PARTY NIGHT! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-28",
-    "m": "aug",
-    "day": "Friday 28 August 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2878,7 +2449,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2911,7 +2482,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2955,7 +2526,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Libertine",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Libertine at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2999,7 +2570,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Passion Casino",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Passion Casino at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3021,7 +2592,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3043,7 +2614,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3076,7 +2647,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Alternative Affair",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Alternative Affair at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3098,7 +2669,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Sunday Funday",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Sunday Funday at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3109,7 +2680,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3142,7 +2713,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Liberty Lounge",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Liberty Lounge at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3175,7 +2746,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3219,7 +2790,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Swingo Bingo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Swingo Bingo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3241,7 +2812,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Swing Into It Social",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Swing Into It Social at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3263,7 +2834,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Queens of the Scene",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Queens of the Scene at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3296,7 +2867,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Casino Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Casino Night at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3318,7 +2889,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3351,7 +2922,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Temptation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "Temptation at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3384,7 +2955,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3402,23 +2973,23 @@
     "d": "2026-10-11",
     "m": "oct",
     "day": "Sunday 11 October 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "MANE - HAIR PLAY AFTERNOON WITH KINKYTILLY & TALLNTATTOOD",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "MANE - HAIR PLAY AFTERNOON WITH KINKYTILLY & TALLNTATTOOD at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-11",
-    "m": "oct",
-    "day": "Sunday 11 October 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "The CMnf Organisation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-06",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
     "desc": "The CMnf Organisation at Liberty Elite, Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-10-16",
+    "m": "oct",
+    "day": "Friday 16 October 2026",
+    "club": "Liberty Elite",
+    "city": "Midlands",
+    "cls": "liberty",
+    "event": "Dangerous Curves",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-06-07",
+    "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-16",
@@ -3639,17 +3210,6 @@
     "event": "KISS with INTRODUCTORY NEWBIE HOURS",
     "url": "https://leboudoir.club/events/83022",
     "desc": "KISS with INTRODUCTORY NEWBIE HOURS at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-08",
-    "m": "nov",
-    "day": "Sunday 8 November 2026",
-    "club": "Townhouse",
-    "city": "Birkenhead, Wirral",
-    "cls": "townhouse",
-    "event": "SQUEAL! TICKLE TORTURE AT TOWNHOUSE- A BDSM PLAY EVENT",
-    "url": "https://www.tickettailor.com/events/townhousewirralltd",
-    "desc": "SQUEAL! TICKLE TORTURE AT TOWNHOUSE- A BDSM PLAY EVENT at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-12",
@@ -4026,6 +3586,17 @@
     "desc": "REMIX: who can attend at Swindon SC, Swindon. Visit the website for full details and booking."
   },
   {
+    "d": "2027-05-30",
+    "m": "may",
+    "day": "Sunday 30 May 2027",
+    "club": "Chunky Muffins",
+    "city": "Boston, Lincolnshire",
+    "cls": "chunkymuffins",
+    "event": "LINGERIE PARTY NIGHT",
+    "url": "https://www.chunkymuffins.co.uk/post/lingerie-party-night-1",
+    "desc": "LINGERIE PARTY NIGHT at Chunky Muffins, Boston, Lincolnshire. Visit the website for full details and booking."
+  },
+  {
     "d": "2027-05-31",
     "m": "may",
     "day": "Monday 31 May 2027",
@@ -4037,28 +3608,6 @@
     "desc": "COITUS: sign up now at Swindon SC, Swindon. Visit the website for full details and booking."
   },
   {
-    "d": "2027-06-03",
-    "m": "jun",
-    "day": "Thursday 3 June 2027",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "Pandora's dedicated kink and fetish night",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "Pandora's dedicated kink and fetish night at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-06-04",
-    "m": "jun",
-    "day": "Friday 4 June 2027",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "our dedicated bisexual day, all steam",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "our dedicated bisexual day, all steam at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
     "d": "2027-06-05",
     "m": "jun",
     "day": "Saturday 5 June 2027",
@@ -4068,17 +3617,6 @@
     "event": "Chocolate & Champagne",
     "url": "https://partnersswingersclub.com/events/",
     "desc": "Chocolate & Champagne at Partners, Bury, Manchester. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-06-05",
-    "m": "jun",
-    "day": "Saturday 5 June 2027",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "Filthy Friday",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "Filthy Friday at Pandoras, Armley, Leeds. Visit the website for full details and booking."
   },
   {
     "d": "2027-06-05",
@@ -4101,5 +3639,49 @@
     "event": "The Kink Night",
     "url": "https://theatticexperience.com/events-prices-2/",
     "desc": "The Kink Night at The Attic, Derby. Visit the website for full details and booking."
+  },
+  {
+    "d": "2027-06-06",
+    "m": "jun",
+    "day": "Sunday 6 June 2027",
+    "club": "Partners",
+    "city": "Bury, Manchester",
+    "cls": "partners",
+    "event": "Tacos & Tequila",
+    "url": "https://partnersswingersclub.com/events/",
+    "desc": "Tacos & Tequila at Partners, Bury, Manchester. Visit the website for full details and booking."
+  },
+  {
+    "d": "2027-06-06",
+    "m": "jun",
+    "day": "Sunday 6 June 2027",
+    "club": "Pandoras",
+    "city": "Armley, Leeds",
+    "cls": "pandora",
+    "event": "Rock N Metal Night",
+    "url": "https://www.pandoraswingers.com/event-diary",
+    "desc": "Rock N Metal Night at Pandoras, Armley, Leeds. Visit the website for full details and booking."
+  },
+  {
+    "d": "2027-06-06",
+    "m": "jun",
+    "day": "Sunday 6 June 2027",
+    "club": "Xtasia",
+    "city": "West Bromwich",
+    "cls": "xtasia",
+    "event": "Foam Party",
+    "url": "https://www.xtasia.co.uk/page/2-months-diary",
+    "desc": "Foam Party at Xtasia, West Bromwich. Visit the website for full details and booking."
+  },
+  {
+    "d": "2027-06-06",
+    "m": "jun",
+    "day": "Sunday 6 June 2027",
+    "club": "Swindon SC",
+    "city": "Swindon",
+    "cls": "swindon",
+    "event": "WICKED: T I C K E T S",
+    "url": "https://swindonswingers.com/swindon-swingers-club-wicked-couples-event/",
+    "desc": "WICKED: T I C K E T S at Swindon SC, Swindon. Visit the website for full details and booking."
   }
 ]
