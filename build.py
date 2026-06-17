@@ -4,6 +4,50 @@ from datetime import datetime, date
 # Today's date string for filtering past events
 TODAY = date.today().strftime('%Y-%m-%d')
 
+# Hardcoded city corrections — applied at build time regardless of source data
+CITY_OVERRIDE = {
+    "atlantisEVOLUTION":        "Stoke-on-Trent",
+    "Chameleons":                "Darlaston",
+    "Chunky Muffins":            "Boston, Lincolnshire",
+    "Chunkymuffins":             "Boston, Lincolnshire",
+    "Club Alchemy":              "Northwich",
+    "Club F":                    "Stanley, Co. Durham",
+    "Club Ignite":               "West Drayton",
+    "Club Play":                 "Blackpool",
+    "Cupids":                    "Swinton, Manchester",
+    "Decadance":                 "Rochdale",
+    "GG's Lounge":              "Runcorn",
+    "House of Earthly Delights": "Llandovery",
+    "HU9":                       "Hull",
+    "Infusion":                  "Blackpool",
+    "Jaydee's":                 "St Neots, East Midlands",
+    "Jay-Dees":                  "St Neots, East Midlands",
+    "Klub Kink":                 "Dudley",
+    "Le Boudoir":                "City of London",
+    "Liberty Elite":             "West Midlands",
+    "Naughty Pineapple":         "Leicester",
+    "The Pineapple Club":        "Leicester",
+    "New Gatehouse":             "Bolton",
+    "No.3 Club":                 "Chorley, Lancashire",
+    "Pandoras":                  "Armley, Leeds",
+    "Pandora's":                "Armley, Leeds",
+    "Partners":                  "Bury, Manchester",
+    "Penthouse Playrooms":       "Dunstable",
+    "Penthouse Club":            "Dunstable",
+    "Purple Mamba":              "Nottingham",
+    "Quest":                     "Leeds",
+    "Shhh":                      "Newcastle",
+    "Steel Cliffe":              "Sheffield",
+    "Swindon SC":                "Swindon",
+    "The Attic":                 "Derby",
+    "The Playgrounds":           "Staffordshire",
+    "Townhouse":                 "Birkenhead",
+    "The Townhouse":             "Birkenhead",
+    "V2V":                       "Nuneaton, Warwickshire",
+    "Within Temptation":         "Torquay",
+    "Xtasia":                    "West Bromwich",
+}
+
 # Load manually researched events (always present as fallback)
 with open('events.json') as f:
     manual = json.load(f)
@@ -36,6 +80,12 @@ for e in scraped:
     ev = e.get('event', '')
     if key not in merged and not _is_bad(ev):
         merged[key] = e
+
+# Apply hardcoded city corrections
+for e in merged.values():
+    correct = CITY_OVERRIDE.get(e.get('club', ''))
+    if correct:
+        e['city'] = correct
 
 # Filter out events where date has already passed
 events = sorted(
