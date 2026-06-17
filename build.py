@@ -1,4 +1,4 @@
-import json, base64, re as _re
+import json, base64, re as _re, re
 from datetime import datetime, date
 
 # Today's date string for filtering past events
@@ -112,6 +112,19 @@ html = html.replace('STATS_PLACEHOLDER', stats_line)
 html = html.replace('VIDEO_TAG_PLACEHOLDER', video_tag)
 html = html.replace('UPDATED_PLACEHOLDER', updated)
 html = html.replace('EVENTS_JS_PLACEHOLDER', events_js)
+
+
+# Update sitemap.xml lastmod to today
+today_str = date.today().strftime('%Y-%m-%d')
+try:
+    with open('sitemap.xml') as f:
+        sitemap = f.read()
+    sitemap = re.sub(r'<lastmod>[^<]*</lastmod>', f'<lastmod>{today_str}</lastmod>', sitemap)
+    with open('sitemap.xml', 'w') as f:
+        f.write(sitemap)
+    print(f"Updated sitemap.xml lastmod to {today_str}")
+except Exception as e:
+    print(f"Sitemap update skipped: {e}")
 
 with open('index.html', 'w') as f:
     f.write(html)
