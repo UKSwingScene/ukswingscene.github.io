@@ -1,4 +1,4 @@
-# scraper.py v2.1.0 — Partners rewritten for new July 2026 card layout
+# scraper.py v2.2.0 — Liberty Elite paginated DOM fallback (WP API broke after their WP update)
 import asyncio, json, re, urllib.request as _urllib
 from datetime import datetime, timedelta
 from playwright.async_api import async_playwright
@@ -353,17 +353,30 @@ async def scrape_hu9(page, url):
     return events
 
 async def scrape_libertyelite(page, url):
-    """Liberty Elite: Tribe Events Calendar with WP API."""
+    """Liberty Elite v2.2: Tribe Events Calendar. WP API first; if that fails
+    (WP 6.9 update broke/blocked it, Jul 2026), paginated DOM fallback.
+    Their old TEC theme renders titles as h3 links; date line below:
+    'Friday July 3rd @ 8:30 pm - 2:00 am' (handled by parse_date_text)."""
     api_events = await scrape_wp_api(page, 'https://libertyelite.co.uk', 'Liberty Elite', 'Midlands', 'liberty', url)
     if api_events: return api_events
-    await page.goto(url, wait_until='domcontentloaded', timeout=25000)
-    await page.wait_for_timeout(3500)
     events = []
-    for sel in ['.tribe-events-calendar-list__event-title a', 'h2.tribe-events-list-event-title a', 'h2 a']:
-        items = await page.query_selector_all(sel)
-        if items:
+    seen = set()
+    for pg in range(1, 11):
+        purl = url if pg == 1 else f'{url}?tribe_event_display=list&tribe_paged={pg}'
+        try:
+            await page.goto(purl, wait_until='domcontentloaded', timeout=25000)
+            await page.wait_for_timeout(2500)
+        except:
+            break
+        found_this_page = 0
+        for sel in ['.tribe-events-calendar-list__event-title a',
+                    'h2.tribe-events-list-event-title a',
+                    '.tribe-events-list h3 a', 'h3 a', 'h2 a']:
+            items = await page.query_selector_all(sel)
+            if not items: continue
             for item in items:
                 title = (await item.inner_text()).strip()
+                if not title or '/event/' not in (await item.get_attribute('href') or ''): continue
                 href = await item.get_attribute('href') or url
                 parent = await item.evaluate_handle('el => el.closest("article") || el.parentElement.parentElement')
                 try:
@@ -371,10 +384,17 @@ async def scrape_libertyelite(page, url):
                 except:
                     ptext = ''
                 dt = parse_date_text(ptext)
-                if dt:
-                    e = make_event(dt, 'Liberty Elite', 'Midlands', 'liberty', title, href)
-                    if e: events.append(e)
-            if events: return events
+                if not dt: continue
+                key = dt.strftime('%Y-%m-%d') + title[:15]
+                if key in seen: continue
+                seen.add(key)
+                e = make_event(dt, 'Liberty Elite', 'Midlands', 'liberty', title, href)
+                if e:
+                    events.append(e)
+                    found_this_page += 1
+            if found_this_page: break  # this selector worked, skip broader ones
+        if found_this_page == 0:
+            break  # empty page = past the last page
     return events
 
 async def scrape_chameleons(page, url):
