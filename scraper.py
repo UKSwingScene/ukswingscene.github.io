@@ -1,3 +1,4 @@
+# scraper.py v2.1.0 — Partners rewritten for new July 2026 card layout
 import asyncio, json, re, urllib.request as _urllib
 from datetime import datetime, timedelta
 from playwright.async_api import async_playwright
@@ -1358,20 +1359,28 @@ async def scrape_pandoras(page, url):
 
 
 async def scrape_partners(page, url):
-    """Partners Swingers Club: custom WordPress weekly layout.
-    Format: day + date line, then h3 event name.
-    Filter: Biphoria Bisexual Day & Night (every Thu), Swing Sunday (every Sun)."""
-    PARTNERS_STANDARD = {'biphoria bisexual day & night', 'swing sunday'}
+    """Partners Swingers Club v2 (Jul 2026): new card-based events page.
+    Each card renders as: 'Thursday 2nd July' + 'Hosted by X' (sometimes
+    joined on ONE line), then the event name as a heading, then a
+    description sentence, then Times / Guest list rows.
+    Filters: Biphoria (weekly Thu), Swing Sunday (weekly Sun)."""
+    PARTNERS_STANDARD = {'biphoria', 'biphoria bisexual day & night', 'swing sunday'}
+    SKIP_EXACT = {'partners weekly event','hosted event','partners event',
+                  'partners special event','hosted by partners','more details',
+                  'no guest list required','check event details before travelling',
+                  'times','guest list','week','payment note','event guide',
+                  'what\u2019s on',"what's on",'before travelling','venue standards','standards'}
     await page.goto(url, wait_until='domcontentloaded', timeout=25000)
     await page.wait_for_timeout(3500)
     events = []
     seen = set()
     text = await page.inner_text('body')
     lines = [l.strip() for l in text.split('\n') if l.strip()]
-    # Pattern: "Thursday 21st May" or "Friday 22nd May" etc
+    # Date may have 'Hosted by ...' glued onto the same line in the new layout,
+    # so allow trailing text after the month (match, not fullmatch).
     day_pattern = re.compile(
         r'^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+'
-        r'(\d{1,2})[a-z]{0,2}\s+'
+        r'(\d{1,2})(?:st|nd|rd|th)?\s+'
         r'(January|February|March|April|May|June|July|August|September|October|November|December)',
         re.I
     )
@@ -1387,25 +1396,26 @@ async def scrape_partners(page, url):
                 dt = datetime(cur_year + 1, month, day_num)
             if not in_range(dt): continue
         except: continue
-        # Event name is in next few lines â skip label lines, find the name
+        # Event name: next short heading-like line, skipping labels/times/hosts
         event_name = None
-        for j in range(i+1, min(i+6, len(lines))):
+        for j in range(i+1, min(i+7, len(lines))):
             candidate = lines[j].strip()
             if not candidate or len(candidate) < 4: continue
-            if day_pattern.match(candidate): break  # hit next date
-            # Skip label lines like "Partners weekly event", "Hosted event", times, guest list
-            if candidate.lower() in ('partners weekly event','hosted event','partners event',
-                                     'partners special event','hosted by partners',
-                                     'no guest list required','check event details before travelling',
-                                     'times','guest list'): continue
-            if re.match(r'^\d{1,2}(AM|PM)', candidate, re.I): continue
-            if re.match(r'^hosted by ', candidate, re.I): continue
-            if re.match(r'^guest list only', candidate, re.I): continue
+            if day_pattern.match(candidate): break  # hit next card
+            low = candidate.lower()
+            if low in SKIP_EXACT: continue
+            if re.match(r'^\d{1,2}\s?(am|pm)', low): continue          # '8PM - 3AM'
+            if re.match(r'^hosted by ', low): continue
+            if re.match(r'^guest list', low): continue
+            if re.match(r'^contact ', low): continue                   # 'Contact [email] for details'
+            if re.match(r'^\d{1,2}\s*[-\u2013]\s*\d{1,2}\s+\w+$', candidate): continue  # '2-5 July' week header
+            if len(candidate) > 70: continue                           # description sentence, not a title
             event_name = candidate
             break
         if not event_name: continue
-        if event_name.lower() in PARTNERS_STANDARD: continue
-        if event_name.lower() == 'swing sunday': continue
+        # Strip bracketed audience note for the standard-night check only
+        base = re.sub(r'\s*\(.*?\)\s*$', '', event_name).strip().lower()
+        if base in PARTNERS_STANDARD or event_name.lower() in PARTNERS_STANDARD: continue
         key = dt.strftime('%Y-%m-%d') + event_name[:15]
         if key in seen: continue
         seen.add(key)
@@ -2102,7 +2112,7 @@ STANDARD_NIGHTS = {
     'Purple Mamba':        ['Play Space','Sunday Sinners','Bottomless Munch Social'],
     'Decadance':           ['SeXXXy Saturday','Monday Funday','Friday Night Madness','Spicy Sunday'],
     'Cupids':              ['Couples & Single Females Only Night','TITS OUT TUESDAY','M.O.T.D'],
-    'Partners':            ['Biphoria Bisexual Day & Night','Swing Sunday'],
+    'Partners':            ['Biphoria Bisexual Day & Night','Biphoria','Swing Sunday'],
     'Pandoras':            ['Biphoria','Relaxed Sunday','Open to all members'],
     'Xtasia':              ['Guys and Gals','Standard Club Night'],
     'Infusion':            ['Wicked Wednesday','Greedy Girls','Pure','Chillout Sunday',
@@ -2118,7 +2128,7 @@ STANDARD_NIGHTS = {
 # Club metadata needed by fallback
 CLUB_META = {
     'Cupids':              ('Swinton, Manchester', 'cupids',    'https://www.cupidsswingersclub.co.uk/events'),
-    'Partners':            ('Peterborough',        'partners',  'https://partnersswingersclub.com/events/'),
+    'Partners':            ('Bury, Manchester',   'partners',  'https://partnersswingersclub.com/events/'),
     'Pandoras':            ('Romford',             'pandora',   'https://www.pandoraswingers.com/event-diary'),
     'Club Play':           ('Blackpool',           'clubplay',  'https://clubplay.net/events/'),
     'Xtasia':              ('West Bromwich',       'xtasia',    'https://www.xtasia.co.uk/page/2-months-diary'),
