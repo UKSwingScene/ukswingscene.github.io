@@ -1,27 +1,5 @@
 [
   {
-    "d": "2026-07-12",
-    "m": "jul",
-    "day": "Sunday 12 July 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Sunday Funday",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
-    "desc": "Sunday Funday at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-12",
-    "m": "jul",
-    "day": "Sunday 12 July 2026",
-    "club": "Purple Mamba",
-    "city": "Nottingham",
-    "cls": "mamba",
-    "event": "Sinful Sunday - Bi Kink",
-    "url": "https://www.purplemambaclub.com/what-s-on-tickets",
-    "desc": "Sinful Sunday - Bi Kink at Purple Mamba, Nottingham. Visit the website for full details and booking."
-  },
-  {
     "d": "2026-07-15",
     "m": "jul",
     "day": "Wednesday 15 July 2026",
@@ -84,7 +62,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -138,9 +116,9 @@
     "club": "atlantisEVOLUTION",
     "city": "Stoke-on-Trent",
     "cls": "atlantis",
-    "event": "\u2018VIBE\u2019",
+    "event": "\u2018SUMMER VIBE\u2019",
     "url": "http://www.atlantisevolution.co.uk/calendar.htm",
-    "desc": "\u2018VIBE\u2019 at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
+    "desc": "\u2018SUMMER VIBE\u2019 at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
   },
   {
     "d": "2026-07-17",
@@ -216,7 +194,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Liberty Lounge",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Liberty Lounge at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -262,6 +240,17 @@
     "event": "Couples &#038; Singles Saturday",
     "url": "https://club-ignite.co.uk/events-new/",
     "desc": "Couples &#038; Singles Saturday at Club Ignite, West Drayton. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-07-18",
+    "m": "jul",
+    "day": "Saturday 18 July 2026",
+    "club": "atlantisEVOLUTION",
+    "city": "Stoke-on-Trent",
+    "cls": "atlantis",
+    "event": "You\u2019re invited to . . . Come and have fun with us \u2018Cat & Tag\u2019s Party Night\u2019 Mega Play list Mega Fun",
+    "url": "http://www.atlantisevolution.co.uk/calendar.htm",
+    "desc": "You\u2019re invited to . . . Come and have fun with us \u2018Cat & Tag\u2019s Party Night\u2019 Mega Play list Mega Fun at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
   },
   {
     "d": "2026-07-18",
@@ -337,7 +326,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Temptation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Temptation at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -465,17 +454,6 @@
     "d": "2026-07-25",
     "m": "jul",
     "day": "Saturday 25 July 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Schools Out",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Schools Out at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-25",
-    "m": "jul",
-    "day": "Saturday 25 July 2026",
     "club": "Club Alchemy",
     "city": "Northwich",
     "cls": "alchemy",
@@ -491,7 +469,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Pool Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Pool Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -645,7 +623,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -777,7 +755,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "LiberateD",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "LiberateD at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -854,8 +832,19 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-02",
+    "m": "aug",
+    "day": "Sunday 2 August 2026",
+    "club": "Purple Mamba",
+    "city": "Nottingham",
+    "cls": "mamba",
+    "event": "Erotic Shibari Life Drawing Social",
+    "url": "https://www.purplemambaclub.com/what-s-on-tickets",
+    "desc": "Erotic Shibari Life Drawing Social at Purple Mamba, Nottingham. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-04",
@@ -927,22 +916,11 @@
     "d": "2026-08-07",
     "m": "aug",
     "day": "Friday 7 August 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "The Kink Night",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "The Kink Night at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-07",
-    "m": "aug",
-    "day": "Friday 7 August 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Queens of the Scene",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Queens of the Scene at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1052,7 +1030,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1128,9 +1106,9 @@
     "club": "Pandoras",
     "city": "Armley, Leeds",
     "cls": "pandora",
-    "event": "our dedicated bisexual day, all steam",
+    "event": "\u00a315.00 Couple",
     "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "our dedicated bisexual day, all steam at Pandoras, Armley, Leeds. Visit the website for full details and booking."
+    "desc": "\u00a315.00 Couple at Pandoras, Armley, Leeds. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-13",
@@ -1184,8 +1162,19 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Hot Garage Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Hot Garage Party at Liberty Elite, Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-14",
+    "m": "aug",
+    "day": "Friday 14 August 2026",
+    "club": "Purple Mamba",
+    "city": "Nottingham",
+    "cls": "mamba",
+    "event": "Clitter Bomb - Women Only",
+    "url": "https://www.purplemambaclub.com/what-s-on-tickets",
+    "desc": "Clitter Bomb - Women Only at Purple Mamba, Nottingham. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-14",
@@ -1268,23 +1257,23 @@
     "d": "2026-08-15",
     "m": "aug",
     "day": "Saturday 15 August 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Cops N Robbers",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Cops N Robbers at The Attic, Derby. Visit the website for full details and booking."
+    "club": "Liberty Elite",
+    "city": "Midlands",
+    "cls": "liberty",
+    "event": "Insatiable Desires &#8211; Country",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
+    "desc": "Insatiable Desires &#8211; Country at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-15",
     "m": "aug",
     "day": "Saturday 15 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Insatiable Desires &#8211; Country",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
-    "desc": "Insatiable Desires &#8211; Country at Liberty Elite, Midlands. Visit the website for full details and booking."
+    "club": "Purple Mamba",
+    "city": "Nottingham",
+    "cls": "mamba",
+    "event": "Hotwife Soiree presents UK Garage 00's",
+    "url": "https://www.purplemambaclub.com/what-s-on-tickets",
+    "desc": "Hotwife Soiree presents UK Garage 00's at Purple Mamba, Nottingham. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-15",
@@ -1359,9 +1348,9 @@
     "club": "Pandoras",
     "city": "Armley, Leeds",
     "cls": "pandora",
-    "event": "our dedicated bisexual day, all steam",
+    "event": "\u00a315.00 Couple",
     "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "our dedicated bisexual day, all steam at Pandoras, Armley, Leeds. Visit the website for full details and booking."
+    "desc": "\u00a315.00 Couple at Pandoras, Armley, Leeds. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-20",
@@ -1393,7 +1382,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1448,7 +1437,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Movie Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Movie Night at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1499,22 +1488,11 @@
     "d": "2026-08-23",
     "m": "aug",
     "day": "Sunday 23 August 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Cumfest",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Cumfest at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-23",
-    "m": "aug",
-    "day": "Sunday 23 August 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1535,9 +1513,9 @@
     "club": "Pandoras",
     "city": "Armley, Leeds",
     "cls": "pandora",
-    "event": "our dedicated bisexual day, all steam",
+    "event": "\u00a315.00 Couple",
     "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "our dedicated bisexual day, all steam at Pandoras, Armley, Leeds. Visit the website for full details and booking."
+    "desc": "\u00a315.00 Couple at Pandoras, Armley, Leeds. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-27",
@@ -1558,7 +1536,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1620,22 +1598,11 @@
     "d": "2026-08-29",
     "m": "aug",
     "day": "Saturday 29 August 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Beach Party",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Beach Party at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-29",
-    "m": "aug",
-    "day": "Saturday 29 August 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1690,7 +1657,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1752,22 +1719,11 @@
     "d": "2026-09-04",
     "m": "sep",
     "day": "Friday 4 September 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "The Kink Night",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "The Kink Night at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-04",
-    "m": "sep",
-    "day": "Friday 4 September 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Libertine",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Libertine at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1844,7 +1800,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Passion Casino",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Passion Casino at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1888,7 +1844,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1910,7 +1866,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1950,17 +1906,6 @@
     "d": "2026-09-12",
     "m": "sep",
     "day": "Saturday 12 September 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Bollywood Party",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Bollywood Party at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-12",
-    "m": "sep",
-    "day": "Saturday 12 September 2026",
     "club": "Swindon SC",
     "city": "Swindon",
     "cls": "swindon",
@@ -1976,7 +1921,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Alternative Affair",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Alternative Affair at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2009,7 +1954,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Sunday Funday",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Sunday Funday at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2031,7 +1976,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2086,7 +2031,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Liberty Lounge",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Liberty Lounge at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2141,7 +2086,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2170,22 +2115,11 @@
     "d": "2026-09-26",
     "m": "sep",
     "day": "Saturday 26 September 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Back to the 80's",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Back to the 80's at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-26",
-    "m": "sep",
-    "day": "Saturday 26 September 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Swingo Bingo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Swingo Bingo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2218,7 +2152,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "CUCKOLD COUPLES &#038; BULLS",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "CUCKOLD COUPLES &#038; BULLS at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2236,22 +2170,11 @@
     "d": "2026-10-02",
     "m": "oct",
     "day": "Friday 2 October 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "The Kink Night",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "The Kink Night at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-02",
-    "m": "oct",
-    "day": "Friday 2 October 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Queens of the Scene",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Queens of the Scene at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2295,7 +2218,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Casino Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Casino Night at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2328,7 +2251,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2372,7 +2295,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Temptation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Temptation at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2390,22 +2313,11 @@
     "d": "2026-10-10",
     "m": "oct",
     "day": "Saturday 10 October 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Blue Lights Party",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Blue Lights Party at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-10",
-    "m": "oct",
-    "day": "Saturday 10 October 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2427,7 +2339,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The CMnf Organisation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "The CMnf Organisation at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2438,7 +2350,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2482,7 +2394,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Naughties",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Naughties at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2522,22 +2434,11 @@
     "d": "2026-10-23",
     "m": "oct",
     "day": "Friday 23 October 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "BI2 Inclusion",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "BI2 Inclusion at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-23",
-    "m": "oct",
-    "day": "Friday 23 October 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Halloween: The Beginning",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Halloween: The Beginning at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2559,7 +2460,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Halloween: The Second Coming",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Halloween: The Second Coming at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2592,7 +2493,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Halloween: The Hangover",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Halloween: The Hangover at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2625,7 +2526,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2654,17 +2555,6 @@
     "d": "2026-10-31",
     "m": "oct",
     "day": "Saturday 31 October 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Halloween Party",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Halloween Party at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-31",
-    "m": "oct",
-    "day": "Saturday 31 October 2026",
     "club": "Club Alchemy",
     "city": "Northwich",
     "cls": "alchemy",
@@ -2680,7 +2570,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2713,7 +2603,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2742,22 +2632,11 @@
     "d": "2026-11-06",
     "m": "nov",
     "day": "Friday 6 November 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "The Kink Night",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "The Kink Night at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-06",
-    "m": "nov",
-    "day": "Friday 6 November 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Libertine",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Libertine at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2801,7 +2680,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Firework Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Firework Night at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2834,7 +2713,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Sunday Funday",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Sunday Funday at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2856,7 +2735,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2874,22 +2753,11 @@
     "d": "2026-11-14",
     "m": "nov",
     "day": "Saturday 14 November 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Noughties Party",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Noughties Party at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-14",
-    "m": "nov",
-    "day": "Saturday 14 November 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2922,7 +2790,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "DC &#8211; Kinky Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "DC &#8211; Kinky Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2966,7 +2834,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Liberty Lounge",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-12",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
     "desc": "Liberty Lounge at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2979,6 +2847,17 @@
     "event": "CONFESSIONS",
     "url": "https://leboudoir.club/events/83044",
     "desc": "CONFESSIONS at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-11-22",
+    "m": "nov",
+    "day": "Sunday 22 November 2026",
+    "club": "Liberty Elite",
+    "city": "Midlands",
+    "cls": "liberty",
+    "event": "Embargo",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-13",
+    "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-26",
@@ -3001,17 +2880,6 @@
     "event": "THE MORE THE MERRIER!",
     "url": "https://leboudoir.club/events/82863",
     "desc": "THE MORE THE MERRIER! at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-28",
-    "m": "nov",
-    "day": "Saturday 28 November 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Military Party",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Military Party at The Attic, Derby. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-28",
@@ -3067,17 +2935,6 @@
     "event": "QUEEN OF HEARTS",
     "url": "https://leboudoir.club/events/82810",
     "desc": "QUEEN OF HEARTS at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-12-04",
-    "m": "dec",
-    "day": "Friday 4 December 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "The Kink Night",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "The Kink Night at The Attic, Derby. Visit the website for full details and booking."
   },
   {
     "d": "2026-12-04",
@@ -3215,17 +3072,6 @@
     "d": "2026-12-19",
     "m": "dec",
     "day": "Saturday 19 December 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Attic Xmas Party",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Attic Xmas Party at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-12-19",
-    "m": "dec",
-    "day": "Saturday 19 December 2026",
     "club": "Club Alchemy",
     "city": "Northwich",
     "cls": "alchemy",
@@ -3243,28 +3089,6 @@
     "event": "CHRISTMAS CONFESSIONS",
     "url": "https://leboudoir.club/events/83045",
     "desc": "CHRISTMAS CONFESSIONS at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-12-25",
-    "m": "dec",
-    "day": "Friday 25 December 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Closed",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Closed at The Attic, Derby. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-12-26",
-    "m": "dec",
-    "day": "Saturday 26 December 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Boxing Day Bash",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Boxing Day Bash at The Attic, Derby. Visit the website for full details and booking."
   },
   {
     "d": "2026-12-27",
@@ -3287,17 +3111,6 @@
     "event": "THE NIGHT BEFORE NEW YEARS EVE",
     "url": "https://leboudoir.club/events/82934",
     "desc": "THE NIGHT BEFORE NEW YEARS EVE at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-12-31",
-    "m": "dec",
-    "day": "Thursday 31 December 2026",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "New Year\u2019s Eve Party",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "New Year\u2019s Eve Party at The Attic, Derby. Visit the website for full details and booking."
   },
   {
     "d": "2026-12-31",
@@ -3375,72 +3188,6 @@
     "event": "PRIDE PARTY",
     "url": "https://www.chunkymuffins.co.uk/post/pride-party",
     "desc": "PRIDE PARTY at Chunky Muffins, Boston, Lincolnshire. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-07-09",
-    "m": "jul",
-    "day": "Friday 9 July 2027",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "our dedicated bisexual day, all steam",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "our dedicated bisexual day, all steam at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-07-10",
-    "m": "jul",
-    "day": "Saturday 10 July 2027",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "Pandora's Dedicated interracial party",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "Pandora's Dedicated interracial party at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-07-10",
-    "m": "jul",
-    "day": "Saturday 10 July 2027",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "BMFC - Black Man\u2019s Fan Club",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "BMFC - Black Man\u2019s Fan Club at Xtasia, West Bromwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-07-11",
-    "m": "jul",
-    "day": "Sunday 11 July 2027",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "HU9 are joining us at Pandora tonight to",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "HU9 are joining us at Pandora tonight to at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-07-11",
-    "m": "jul",
-    "day": "Sunday 11 July 2027",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "Swink",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "Swink at Xtasia, West Bromwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-07-11",
-    "m": "jul",
-    "day": "Sunday 11 July 2027",
-    "club": "The Attic",
-    "city": "Derby",
-    "cls": "attic",
-    "event": "Sports Day",
-    "url": "https://theatticexperience.com/events-prices-2/",
-    "desc": "Sports Day at The Attic, Derby. Visit the website for full details and booking."
   },
   {
     "d": "2027-07-11",
