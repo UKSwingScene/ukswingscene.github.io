@@ -1,4 +1,4 @@
-# scraper.py v2.4.0 — Chameleons scraper rewritten to read the page directly
+# scraper.py v2.4.1 — Chameleons date regex was over-anchored, trailing junk broke every match
 import asyncio, json, re, urllib.request as _urllib
 import html as _html
 from datetime import datetime, timedelta
@@ -420,7 +420,10 @@ async def scrape_chameleons(page, url):
         lines = [l for l in lines if l]
 
         DATE_RE = re.compile(
-            r'^(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s*(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2}),\s*(\d{4})$',
+            # No trailing $ anchor: the site appends "View Details --" (leftover HTML
+            # comment marker) straight after the date on the same line with no tag
+            # boundary between them, confirmed against the live page's raw HTML.
+            r'^(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s*(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2}),\s*(\d{4})',
             re.I)
         events = []
         seen = set()
