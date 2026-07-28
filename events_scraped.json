@@ -58,17 +58,6 @@
     "d": "2026-07-31",
     "m": "jul",
     "day": "Friday 31 July 2026",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "BMFC Bonus",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "BMFC Bonus at Xtasia, West Bromwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-31",
-    "m": "jul",
-    "day": "Friday 31 July 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
@@ -174,17 +163,6 @@
     "event": "BI-BI BABY CLUB PLAY\u2019s BIG BI PARTY",
     "url": "https://clubplay.net/events/sat-1st-aug-%f0%9f%92%8b-bi-bi-baby-club-plays-big-bi-party-%f0%9f%8f%b3%ef%b8%8f%f0%9f%8c%88-2/",
     "desc": "BI-BI BABY CLUB PLAY\u2019s BIG BI PARTY at Club Play, Blackpool. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-01",
-    "m": "aug",
-    "day": "Saturday 1 August 2026",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "Foam Party",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "Foam Party at Xtasia, West Bromwich. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-01",
@@ -388,17 +366,6 @@
     "d": "2026-08-07",
     "m": "aug",
     "day": "Friday 7 August 2026",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "Pre-Phase [Alt Rock Night #1]",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "Pre-Phase [Alt Rock Night #1] at Xtasia, West Bromwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-07",
-    "m": "aug",
-    "day": "Friday 7 August 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
@@ -493,17 +460,6 @@
     "event": "80's Karaoke Night Saturday",
     "url": "https://clubplay.net/events/%f0%9f%8e%a4%f0%9f%8e%a4%f0%9f%ab%af80s-karaoke-night-saturday-8th-august-8pm-till-3am-%f0%9f%93%80%f0%9f%92%bfrock-n-roll-bingo%f0%9f%92%bf%f0%9f%93%80/",
     "desc": "80's Karaoke Night Saturday at Club Play, Blackpool. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-08",
-    "m": "aug",
-    "day": "Saturday 8 August 2026",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "It Was Not A Phase [Alt Rock Night #2]",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "It Was Not A Phase [Alt Rock Night #2] at Xtasia, West Bromwich. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-08",
@@ -707,6 +663,17 @@
     "d": "2026-08-14",
     "m": "aug",
     "day": "Friday 14 August 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "90s Party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "90s Party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-14",
+    "m": "aug",
+    "day": "Friday 14 August 2026",
     "club": "V2V",
     "city": "Nuneaton, Warwickshire",
     "cls": "v2v",
@@ -746,17 +713,6 @@
     "event": "Play Idols - Prizes to be Won",
     "url": "https://clubplay.net/events/sat-15th-aug-play-idols-prizes-to-be-won-8pm-till-3am/",
     "desc": "Play Idols - Prizes to be Won at Club Play, Blackpool. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-15",
-    "m": "aug",
-    "day": "Saturday 15 August 2026",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "CLIMAX",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "CLIMAX at Xtasia, West Bromwich. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-15",
@@ -823,6 +779,17 @@
     "event": "Couples &#038; Singles Saturday",
     "url": "https://club-ignite.co.uk/events-new/",
     "desc": "Couples &#038; Singles Saturday at Club Ignite, West Drayton. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-15",
+    "m": "aug",
+    "day": "Saturday 15 August 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "90s Party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "90s Party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-15",
@@ -927,17 +894,6 @@
     "d": "2026-08-21",
     "m": "aug",
     "day": "Friday 21 August 2026",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "Hot Wives",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "Hot Wives at Xtasia, West Bromwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-21",
-    "m": "aug",
-    "day": "Friday 21 August 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
@@ -1010,17 +966,6 @@
     "event": "22nd Aug Swingers Pride Hosting at Club Play - Road to Swingers Pride Gran Canaria 2026",
     "url": "https://clubplay.net/events/22nd-aug-swingers-pride-hosting-at-club-play-road-to-swingers-pride-gran-canaria-2026/",
     "desc": "22nd Aug Swingers Pride Hosting at Club Play - Road to Swingers Pride Gran Canaria 2026 at Club Play, Blackpool. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-22",
-    "m": "aug",
-    "day": "Saturday 22 August 2026",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "Newcummers Unleashed",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "Newcummers Unleashed at Xtasia, West Bromwich. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-22",
@@ -1169,17 +1114,6 @@
     "d": "2026-08-28",
     "m": "aug",
     "day": "Friday 28 August 2026",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "Wild Temptations",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "Wild Temptations at Xtasia, West Bromwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-28",
-    "m": "aug",
-    "day": "Friday 28 August 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
@@ -1257,17 +1191,6 @@
     "d": "2026-08-29",
     "m": "aug",
     "day": "Saturday 29 August 2026",
-    "club": "Xtasia",
-    "city": "West Bromwich",
-    "cls": "xtasia",
-    "event": "80's / 90's / Naughties night",
-    "url": "https://www.xtasia.co.uk/page/2-months-diary",
-    "desc": "80's / 90's / Naughties night at Xtasia, West Bromwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-29",
-    "m": "aug",
-    "day": "Saturday 29 August 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
@@ -1307,6 +1230,28 @@
     "event": "2PM-12MIDNIGHT CHEESY BONK HOLIDAY",
     "url": "https://clubplay.net/events/%f0%9f%a7%80-club-play-sun-30th-aug-2pm-12midnight-%f0%9f%a7%80cheesy-bonk-holiday-free-entry-4-everyone-licenced-bar/",
     "desc": "2PM-12MIDNIGHT CHEESY BONK HOLIDAY at Club Play, Blackpool. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-30",
+    "m": "aug",
+    "day": "Sunday 30 August 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Bank Holiday Beach Party. The busiest party of them all",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Bank Holiday Beach Party. The busiest party of them all at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-31",
+    "m": "aug",
+    "day": "Monday 31 August 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Bi bikini/mankini party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Bi bikini/mankini party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-01",
@@ -1730,6 +1675,17 @@
     "d": "2026-09-18",
     "m": "sep",
     "day": "Friday 18 September 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "St Trinians back to school party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "St Trinians back to school party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-09-18",
+    "m": "sep",
+    "day": "Friday 18 September 2026",
     "club": "V2V",
     "city": "Nuneaton, Warwickshire",
     "cls": "v2v",
@@ -1769,6 +1725,17 @@
     "event": "AUTUMN VIBES",
     "url": "https://leboudoir.club/events/82930",
     "desc": "AUTUMN VIBES at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-09-19",
+    "m": "sep",
+    "day": "Saturday 19 September 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "St Trinians back to school party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "St Trinians back to school party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-19",
@@ -2288,6 +2255,17 @@
     "desc": "HALLOWEEN SCREAMS at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
   },
   {
+    "d": "2026-10-30",
+    "m": "oct",
+    "day": "Friday 30 October 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Halloween party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Halloween party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
     "d": "2026-10-31",
     "m": "oct",
     "day": "Saturday 31 October 2026",
@@ -2343,6 +2321,17 @@
     "desc": "DIA DE LOS MUERTOS, EL FINAL - PART at Le Boudoir, City of London. Visit the website for full details and booking."
   },
   {
+    "d": "2026-10-31",
+    "m": "oct",
+    "day": "Saturday 31 October 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Halloween party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Halloween party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
     "d": "2026-11-01",
     "m": "nov",
     "day": "Sunday 1 November 2026",
@@ -2352,6 +2341,17 @@
     "event": "Embargo",
     "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-11-02",
+    "m": "nov",
+    "day": "Monday 2 November 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "bi sexual Halloween party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "bi sexual Halloween party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-03",
@@ -2519,6 +2519,17 @@
     "desc": "Time to Share Your Secret Sins at Le Boudoir, City of London. Visit the website for full details and booking."
   },
   {
+    "d": "2026-11-20",
+    "m": "nov",
+    "day": "Friday 20 November 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Masquerade party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Masquerade party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
     "d": "2026-11-21",
     "m": "nov",
     "day": "Saturday 21 November 2026",
@@ -2550,6 +2561,17 @@
     "event": "CONFESSIONS",
     "url": "https://leboudoir.club/events/83044",
     "desc": "CONFESSIONS at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-11-21",
+    "m": "nov",
+    "day": "Saturday 21 November 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Masquerade party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Masquerade party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-21",
@@ -2783,6 +2805,17 @@
     "desc": "Santa's Secret Sin at Le Boudoir, City of London. Visit the website for full details and booking."
   },
   {
+    "d": "2026-12-18",
+    "m": "dec",
+    "day": "Friday 18 December 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Christmas party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Christmas party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
     "d": "2026-12-19",
     "m": "dec",
     "day": "Saturday 19 December 2026",
@@ -2805,6 +2838,28 @@
     "desc": "CHRISTMAS CONFESSIONS at Le Boudoir, City of London. Visit the website for full details and booking."
   },
   {
+    "d": "2026-12-19",
+    "m": "dec",
+    "day": "Saturday 19 December 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Christmas party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Christmas party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-21",
+    "m": "dec",
+    "day": "Monday 21 December 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Bi Christmas party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Bi Christmas party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
     "d": "2026-12-30",
     "m": "dec",
     "day": "Wednesday 30 December 2026",
@@ -2825,6 +2880,17 @@
     "event": "NEW YEAR'S EVE PARTY",
     "url": "https://leboudoir.club/events/82932",
     "desc": "NEW YEAR'S EVE PARTY at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-31",
+    "m": "dec",
+    "day": "Thursday 31 December 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "New Year\u2019s Eve party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "New Year\u2019s Eve party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2027-01-02",
