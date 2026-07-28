@@ -1,4 +1,4 @@
-# scraper.py v2.5.0 — Chameleons: Playwright fallback in case GHA IPs get blocked on direct fetch
+# scraper.py v2.6.0 — Partners: added direct-fetch path for the relaunched .com site, kept Playwright as fallback
 import asyncio, json, re, urllib.request as _urllib
 import html as _html
 from datetime import datetime, timedelta
@@ -1392,25 +1392,22 @@ async def scrape_pandoras(page, url):
 
 
 async def scrape_partners(page, url):
-    """Partners Swingers Club v2 (Jul 2026): new card-based events page.
-    Each card renders as: 'Thursday 2nd July' + 'Hosted by X' (sometimes
-    joined on ONE line), then the event name as a heading, then a
-    description sentence, then Times / Guest list rows.
+    """Partners Swingers Club v3 (Jul 2026): full site relaunch under Adult Leisure
+    Group at partnersswingersclub.com. Tries a plain fetch first - this new site's
+    events list doesn't need JS to render, unlike the old .co.uk one this scraper
+    was originally written against. Falls back to the existing Playwright approach
+    if that's blocked (the old Cloudflare-blocks-GHA conclusion may or may not
+    still hold post-relaunch, so try both rather than assume either way).
+    Each card renders as: 'Thursday 2nd July' then 'Hosted by X' then the event
+    name as a heading, then a description sentence, then Times / Guest list rows.
     Filters: Biphoria (weekly Thu), Swing Sunday (weekly Sun)."""
+    import sys
     PARTNERS_STANDARD = {'biphoria', 'biphoria bisexual day & night', 'swing sunday'}
     SKIP_EXACT = {'partners weekly event','hosted event','partners event',
                   'partners special event','hosted by partners','more details',
                   'no guest list required','check event details before travelling',
                   'times','guest list','week','payment note','event guide',
                   'what\u2019s on',"what's on",'before travelling','venue standards','standards'}
-    await page.goto(url, wait_until='domcontentloaded', timeout=25000)
-    await page.wait_for_timeout(3500)
-    events = []
-    seen = set()
-    text = await page.inner_text('body')
-    lines = [l.strip() for l in text.split('\n') if l.strip()]
-    # Date may have 'Hosted by ...' glued onto the same line in the new layout,
-    # so allow trailing text after the month (match, not fullmatch).
     day_pattern = re.compile(
         r'^(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+'
         r'(\d{1,2})(?:st|nd|rd|th)?\s+'
@@ -1418,44 +1415,89 @@ async def scrape_partners(page, url):
         re.I
     )
     cur_year = NOW.year
-    for i, line in enumerate(lines):
-        dm = day_pattern.match(line)
-        if not dm: continue
-        day_num = int(dm.group(1))
-        month = MMAP[dm.group(2).lower()]
-        try:
-            dt = datetime(cur_year, month, day_num)
-            if dt < NOW - timedelta(days=1):
-                dt = datetime(cur_year + 1, month, day_num)
-            if not in_range(dt): continue
-        except: continue
-        # Event name: next short heading-like line, skipping labels/times/hosts
-        event_name = None
-        for j in range(i+1, min(i+7, len(lines))):
-            candidate = lines[j].strip()
-            if not candidate or len(candidate) < 4: continue
-            if day_pattern.match(candidate): break  # hit next card
-            low = candidate.lower()
-            if low in SKIP_EXACT: continue
-            if re.match(r'^\d{1,2}\s?(am|pm)', low): continue          # '8PM - 3AM'
-            if re.match(r'^hosted by ', low): continue
-            if re.match(r'^guest list', low): continue
-            if re.match(r'^contact ', low): continue                   # 'Contact [email] for details'
-            if re.match(r'^\d{1,2}\s*[-\u2013]\s*\d{1,2}\s+\w+$', candidate): continue  # '2-5 July' week header
-            if len(candidate) > 70: continue                           # description sentence, not a title
-            event_name = candidate
-            break
-        if not event_name: continue
-        # Strip bracketed audience note for the standard-night check only
-        base = re.sub(r'\s*\(.*?\)\s*$', '', event_name).strip().lower()
-        if base in PARTNERS_STANDARD or event_name.lower() in PARTNERS_STANDARD: continue
-        key = dt.strftime('%Y-%m-%d') + event_name[:15]
-        if key in seen: continue
-        seen.add(key)
-        e = make_event(dt, 'Partners', 'Bury, Manchester', 'partners', event_name, url)
-        if e: events.append(e)
-    return events
 
+    def parse_partners_lines(lines):
+        out = []
+        seen = set()
+        for i, line in enumerate(lines):
+            dm = day_pattern.match(line)
+            if not dm:
+                continue
+            day_num = int(dm.group(1))
+            month = MMAP[dm.group(2).lower()]
+            try:
+                dt = datetime(cur_year, month, day_num)
+                if dt < NOW - timedelta(days=1):
+                    dt = datetime(cur_year + 1, month, day_num)
+                if not in_range(dt):
+                    continue
+            except Exception:
+                continue
+            event_name = None
+            for j in range(i + 1, min(i + 7, len(lines))):
+                candidate = lines[j].strip()
+                if not candidate or len(candidate) < 4:
+                    continue
+                if day_pattern.match(candidate):
+                    break
+                low = candidate.lower()
+                if low in SKIP_EXACT: continue
+                if re.match(r'^\d{1,2}\s?(am|pm)', low): continue
+                if re.match(r'^hosted by ', low): continue
+                if re.match(r'^guest list', low): continue
+                if re.match(r'^contact ', low): continue
+                if re.match(r'^\d{1,2}\s*[-\u2013]\s*\d{1,2}\s+\w+$', candidate): continue
+                if len(candidate) > 70: continue
+                event_name = candidate
+                break
+            if not event_name:
+                continue
+            base = re.sub(r'\s*\(.*?\)\s*$', '', event_name).strip().lower()
+            if base in PARTNERS_STANDARD or event_name.lower() in PARTNERS_STANDARD:
+                continue
+            key = dt.strftime('%Y-%m-%d') + event_name[:15]
+            if key in seen:
+                continue
+            seen.add(key)
+            e = make_event(dt, 'Partners', 'Bury, Manchester', 'partners', event_name, url)
+            if e:
+                out.append(e)
+        return out
+
+    # Try a plain fetch first - the new site doesn't appear to need JS rendering
+    try:
+        req = _urllib.Request(url, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        })
+        with _urllib.urlopen(req, timeout=20) as r:
+            raw = r.read().decode('utf-8', errors='replace')
+        raw2 = re.sub(r'<(h[1-6]|div|p|li|span|a|time)\b', r'\n<\1', raw, flags=re.I)
+        text = re.sub(r'<[^>]+>', ' ', raw2)
+        text = _html.unescape(text)
+        lines = [re.sub(r'[ \t]+', ' ', l).strip() for l in text.split('\n')]
+        lines = [l for l in lines if l]
+        events = parse_partners_lines(lines)
+        if events:
+            print(f"Partners (direct read): {len(events)} events", file=sys.stderr)
+            return events
+        print("Partners: direct read got 0 events, trying Playwright", file=sys.stderr)
+    except Exception as ex:
+        print(f"Partners direct-read error: {ex} -> trying Playwright", file=sys.stderr)
+
+    # Fallback: Playwright, in case this site (or GHA specifically) needs a real browser
+    events = []
+    try:
+        await page.goto(url, wait_until='domcontentloaded', timeout=25000)
+        await page.wait_for_timeout(3500)
+        text = await page.inner_text('body')
+        lines = [l.strip() for l in text.split('\n') if l.strip()]
+        events = parse_partners_lines(lines)
+    except Exception as ex:
+        print(f"Partners Playwright error: {ex}", file=sys.stderr)
+        events = []
+
+    print(f"Partners (Playwright): {len(events)} events", file=sys.stderr)
+    return events
 
 async def scrape_penthouse(page, url):
     """Penthouse Playrooms Dunstable: custom Laravel app, Playwright.
