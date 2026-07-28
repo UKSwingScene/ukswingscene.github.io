@@ -1,5 +1,6 @@
-# scraper.py v2.3.0 — Added The Mirage (Lincoln) + Steel Cliffe (Sheffield) scrapers
+# scraper.py v2.4.0 — Chameleons scraper rewritten to read the page directly
 import asyncio, json, re, urllib.request as _urllib
+import html as _html
 from datetime import datetime, timedelta
 from playwright.async_api import async_playwright
 
@@ -398,43 +399,69 @@ async def scrape_libertyelite(page, url):
     return events
 
 async def scrape_chameleons(page, url):
-    """Chameleons Darlaston: TEC REST API (urllib first), Playwright scroll fallback.
-    Page lazy-loads events on scroll â API is much more reliable.
-    """
+    """Chameleons Darlaston: a direct HTML read gets every event immediately - the
+    listing is server-rendered, not actually lazy-loaded on scroll. Falls back to
+    the old Playwright scroll approach if the page structure ever changes.
+    v2: dropped the TEC calendar-plugin API attempt - this page doesn't use TEC,
+    so that call was always wasted effort."""
     import sys
 
-    # Try TEC API first
-    api = 'https://www.chameleons.cc/wp-json/tribe/events/v1/events?per_page=100&start_date=' + NOW.strftime('%Y-%m-%d')
     try:
-        req = _urllib.Request(api, headers={
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            'Accept': 'application/json',
+        req = _urllib.Request(url, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
         })
         with _urllib.urlopen(req, timeout=20) as r:
-            data = json.loads(r.read())
-        events = []
-        for ev in data.get('events', []):
-            try:
-                dt = datetime.fromisoformat(ev['start_date'][:10])
-                if in_range(dt):
-                    title = re.sub(r'<[^>]+>', '', ev.get('title', '')).strip()
-                    if title and title.lower() not in CHAMELEONS_STANDARD:
-                        e = make_event(dt, 'Chameleons', 'Darlaston, West Midlands', 'chameleons', title, url)
-                        if e: events.append(e)
-            except: pass
-        if events:
-            print(f"Chameleons (API): {len(events)} events", file=sys.stderr)
-            return events
-    except Exception as ex:
-        print(f"Chameleons API error: {ex} â trying Playwright", file=sys.stderr)
+            raw = r.read().decode('utf-8', errors='replace')
 
-    # Playwright fallback â scroll to bottom to trigger lazy loading
+        raw2 = re.sub(r'<(h[1-6]|div|p|li)\b', r'\n<\1', raw, flags=re.I)
+        text = re.sub(r'<[^>]+>', ' ', raw2)
+        text = _html.unescape(text)
+        lines = [re.sub(r'[ \t]+', ' ', l).strip() for l in text.split('\n')]
+        lines = [l for l in lines if l]
+
+        DATE_RE = re.compile(
+            r'^(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s*(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2}),\s*(\d{4})$',
+            re.I)
+        events = []
+        seen = set()
+        for i, line in enumerate(lines):
+            m = DATE_RE.match(line)
+            if not m or i == 0:
+                continue
+            _, mon_str, day_str, year_str = m.groups()
+            month = MMAP.get(mon_str.lower())
+            if not month:
+                continue
+            title = lines[i - 1]
+            if not title or DATE_RE.match(title) or title.lower() in CHAMELEONS_STANDARD:
+                continue
+            try:
+                dt = datetime(int(year_str), month, int(day_str))
+            except ValueError:
+                continue
+            if not in_range(dt):
+                continue
+            key = (dt.strftime('%Y-%m-%d'), title.lower())
+            if key in seen:
+                continue
+            seen.add(key)
+            e = make_event(dt, 'Chameleons', 'Darlaston, West Midlands', 'chameleons', title, url)
+            if e:
+                events.append(e)
+
+        if events:
+            print(f"Chameleons (direct read): {len(events)} events", file=sys.stderr)
+            return events
+        print("Chameleons: direct read got 0 events, trying Playwright scroll fallback", file=sys.stderr)
+    except Exception as ex:
+        print(f"Chameleons direct-read error: {ex} -> trying Playwright", file=sys.stderr)
+
+    # Fallback: old scroll-based approach, kept in case the page structure changes
     events = []
     try:
         await page.goto(url, wait_until='domcontentloaded', timeout=30000)
         await page.wait_for_timeout(3000)
 
-        # Scroll down repeatedly to trigger lazy load
         for _ in range(8):
             await page.evaluate("window.scrollBy(0, 1200)")
             await page.wait_for_timeout(800)
@@ -461,9 +488,9 @@ async def scrape_chameleons(page, url):
                     e = make_event(dt, 'Chameleons', 'Darlaston, West Midlands', 'chameleons', title, url)
                     if e: events.append(e)
     except Exception as ex:
-        print(f"Chameleons Playwright error: {ex}", file=sys.stderr)
+        print(f"Chameleons Playwright fallback error: {ex}", file=sys.stderr)
 
-    print(f"Chameleons (scroll): {len(events)} events", file=sys.stderr)
+    print(f"Chameleons (scroll fallback): {len(events)} events", file=sys.stderr)
     return events
 
 async def scrape_attic(page, url):
