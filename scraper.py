@@ -2367,46 +2367,6 @@ Do not include any explanation, just the JSON array."""
     return valid
 
 
-# ─────────────────────────────────────────────────────────────
-# MAIN ORCHESTRATION — isolated context per club + Claude fallback
-# ─────────────────────────────────────────────────────────────
-
-CLUB_SCRAPERS = [
-    # (club_name, url, scraper_fn or None for special-case)
-    ("No.3 Club",          "https://theno3club.co.uk/",                                              scrape_no3),
-    ("Cupids",             "https://www.cupidsswingersclub.co.uk/events",                            scrape_cupids),
-    ("Partners",           "https://partnersswingersclub.com/events/",                               scrape_partners),
-    ("Pandoras",           "https://www.pandoraswingers.com/event-diary",                            scrape_pandoras),
-    ("Club Play",          "https://clubplay.net/events/",                                           scrape_clubplay),
-    ("Xtasia",             "https://www.xtasia.co.uk/page/2-months-diary",                           scrape_xtasia),
-    ("Naughty Pineapple",  "https://thenaughtypineapple.co.uk/all-events/",                          scrape_naughtypineapple),
-    ("The Attic",          "https://theatticexperience.com/events-prices-2/",                        scrape_attic),
-    ("Townhouse",          "https://www.tickettailor.com/events/townhousewirralltd",                 None),
-    ("Townhouse_old",      "https://www.tickettailor.com/events/townhousewirral",                      None),
-    ("Swindon SC",         "https://swindonswingers.com",                                            None),
-    ("Club Alchemy",       "https://www.clubalchemy.co.uk/events",                                   scrape_clubalchemy),
-    ("Infusion",           "https://www.infusionblackpool.co.uk/8.html",                             "CLAUDE_ONLY"),
-    ("Quest",              "https://questswingersclub.co.uk/upcoming-events/",                       scrape_quest),
-    ("Liberty Elite",      "https://libertyelite.co.uk/events/list/?tribe-bar-date=" + NOW.strftime('%Y-%m-%d'), scrape_libertyelite),
-    ("Purple Mamba",       "https://www.purplemambaclub.com/what-s-on-tickets",                      scrape_purplemamba),
-    ("HU9",                "https://hu9swingersclub.co.uk/events",                                   scrape_hu9),
-    ("Shhh",               "https://www.shhhclub.co.uk/events",                                      scrape_shhh),
-    ("Decadance",          "https://www.decadanceswingersclub.com/what-s-on-at-decadance",           scrape_decadance),
-    ("New Gatehouse",      "https://www.thenewgatehousebolton.co.uk",                                None),
-    ("Le Boudoir",         "https://leboudoir.club/events",                                          None),
-    ("Penthouse Playrooms","https://penthouse-playrooms.co.uk/events",                               scrape_penthouse),
-    ("Club Ignite",        "https://club-ignite.co.uk/events-new/",                                  scrape_ignite),
-    ("atlantisEVOLUTION",  "http://www.atlantisevolution.co.uk/calendar.htm",                        scrape_atlantis),
-    ("Chameleons",         "https://www.chameleons.cc/darlaston-events/",                            scrape_chameleons),
-    ("Jay-Dees",           "https://jay-dees.com/events.html",                                       scrape_jaydees),
-    ("V2V",                "https://v2v.uk/events",                                                  scrape_v2v),
-    ("Chunky Muffins",     "https://www.chunkymuffins.co.uk",                                        scrape_chunkymuffins),
-    ("Club F",             "https://www.clubf.uk/events",                                            scrape_clubf),
-    ("The Mirage",         "https://themiragelincoln.co.uk/events",                                 scrape_mirage),
-    ("Steel Cliffe",       "https://steelcliffe.com/",                                              scrape_steelcliffe),
-]
-
-
 async def scrape_mirage(page, url):
     """The Mirage, Lincoln (near Caenby Corner): client-rendered events list (JS required).
     Playwright + line-walk text parse. Drops 'Lambrini & Licks Sundays' (recurring monthly
@@ -2510,6 +2470,46 @@ async def scrape_steelcliffe(page, url):
 
     print(f"Steel Cliffe: {len(events)} events", file=sys.stderr)
     return events
+
+
+# ─────────────────────────────────────────────────────────────
+# MAIN ORCHESTRATION — isolated context per club + Claude fallback
+# ─────────────────────────────────────────────────────────────
+
+CLUB_SCRAPERS = [
+    # (club_name, url, scraper_fn or None for special-case)
+    ("No.3 Club",          "https://theno3club.co.uk/",                                              scrape_no3),
+    ("Cupids",             "https://www.cupidsswingersclub.co.uk/events",                            scrape_cupids),
+    ("Partners",           "https://partnersswingersclub.com/events/",                               scrape_partners),
+    ("Pandoras",           "https://www.pandoraswingers.com/event-diary",                            scrape_pandoras),
+    ("Club Play",          "https://clubplay.net/events/",                                           scrape_clubplay),
+    ("Xtasia",             "https://www.xtasia.co.uk/page/2-months-diary",                           scrape_xtasia),
+    ("Naughty Pineapple",  "https://thenaughtypineapple.co.uk/all-events/",                          scrape_naughtypineapple),
+    ("The Attic",          "https://theatticexperience.com/events-prices-2/",                        scrape_attic),
+    ("Townhouse",          "https://www.tickettailor.com/events/townhousewirralltd",                 None),
+    ("Townhouse_old",      "https://www.tickettailor.com/events/townhousewirral",                      None),
+    ("Swindon SC",         "https://swindonswingers.com",                                            None),
+    ("Club Alchemy",       "https://www.clubalchemy.co.uk/events",                                   scrape_clubalchemy),
+    ("Infusion",           "https://www.infusionblackpool.co.uk/8.html",                             "CLAUDE_ONLY"),
+    ("Quest",              "https://questswingersclub.co.uk/upcoming-events/",                       scrape_quest),
+    ("Liberty Elite",      "https://libertyelite.co.uk/events/list/?tribe-bar-date=" + NOW.strftime('%Y-%m-%d'), scrape_libertyelite),
+    ("Purple Mamba",       "https://www.purplemambaclub.com/what-s-on-tickets",                      scrape_purplemamba),
+    ("HU9",                "https://hu9swingersclub.co.uk/events",                                   scrape_hu9),
+    ("Shhh",               "https://www.shhhclub.co.uk/events",                                      scrape_shhh),
+    ("Decadance",          "https://www.decadanceswingersclub.com/what-s-on-at-decadance",           scrape_decadance),
+    ("New Gatehouse",      "https://www.thenewgatehousebolton.co.uk",                                None),
+    ("Le Boudoir",         "https://leboudoir.club/events",                                          None),
+    ("Penthouse Playrooms","https://penthouse-playrooms.co.uk/events",                               scrape_penthouse),
+    ("Club Ignite",        "https://club-ignite.co.uk/events-new/",                                  scrape_ignite),
+    ("atlantisEVOLUTION",  "http://www.atlantisevolution.co.uk/calendar.htm",                        scrape_atlantis),
+    ("Chameleons",         "https://www.chameleons.cc/darlaston-events/",                            scrape_chameleons),
+    ("Jay-Dees",           "https://jay-dees.com/events.html",                                       scrape_jaydees),
+    ("V2V",                "https://v2v.uk/events",                                                  scrape_v2v),
+    ("Chunky Muffins",     "https://www.chunkymuffins.co.uk",                                        scrape_chunkymuffins),
+    ("Club F",             "https://www.clubf.uk/events",                                            scrape_clubf),
+    ("The Mirage",         "https://themiragelincoln.co.uk/events",                                 scrape_mirage),
+    ("Steel Cliffe",       "https://steelcliffe.com/",                                              scrape_steelcliffe),
+]
 
 
 async def scrape_club(browser, club_name, scraper_fn, url):
