@@ -1,4 +1,4 @@
-# scraper.py v2.4.1 — Chameleons date regex was over-anchored, trailing junk broke every match
+# scraper.py v2.5.0 — Chameleons: Playwright fallback in case GHA IPs get blocked on direct fetch
 import asyncio, json, re, urllib.request as _urllib
 import html as _html
 from datetime import datetime, timedelta
@@ -399,36 +399,33 @@ async def scrape_libertyelite(page, url):
     return events
 
 async def scrape_chameleons(page, url):
-    """Chameleons Darlaston: a direct HTML read gets every event immediately - the
-    listing is server-rendered, not actually lazy-loaded on scroll. Falls back to
-    the old Playwright scroll approach if the page structure ever changes.
-    v2: dropped the TEC calendar-plugin API attempt - this page doesn't use TEC,
-    so that call was always wasted effort."""
+    """Chameleons Darlaston: the event listing is present in the initial HTML (not
+    genuinely lazy-loaded - that was a wrong assumption in the old version), so it
+    can be regex-parsed directly with no scrolling needed. Tries a plain fetch
+    first; if that comes back empty (some sites block GitHub Actions' plain HTTP
+    requests specifically, even when a real browser or this sandbox gets through
+    fine), falls back to loading the page with Playwright and parsing the same
+    rendered HTML the exact same way.
+    v3: both paths now share one parser and neither needs to scroll."""
     import sys
 
-    try:
-        req = _urllib.Request(url, headers={
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-        })
-        with _urllib.urlopen(req, timeout=20) as r:
-            raw = r.read().decode('utf-8', errors='replace')
-
+    def parse_chameleons_html(raw):
         raw2 = re.sub(r'<(h[1-6]|div|p|li)\b', r'\n<\1', raw, flags=re.I)
         text = re.sub(r'<[^>]+>', ' ', raw2)
         text = _html.unescape(text)
         lines = [re.sub(r'[ \t]+', ' ', l).strip() for l in text.split('\n')]
         lines = [l for l in lines if l]
 
-        DATE_RE = re.compile(
-            # No trailing $ anchor: the site appends "View Details --" (leftover HTML
-            # comment marker) straight after the date on the same line with no tag
-            # boundary between them, confirmed against the live page's raw HTML.
+        date_re = re.compile(
+            # No trailing $ anchor - the site appends "View Details --" (a stray
+            # HTML comment remnant) right after the date with no tag boundary
+            # between them, confirmed against the live page's raw HTML.
             r'^(Mon|Tue|Wed|Thu|Fri|Sat|Sun),\s*(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+(\d{1,2}),\s*(\d{4})',
             re.I)
-        events = []
+        out = []
         seen = set()
         for i, line in enumerate(lines):
-            m = DATE_RE.match(line)
+            m = date_re.match(line)
             if not m or i == 0:
                 continue
             _, mon_str, day_str, year_str = m.groups()
@@ -436,7 +433,7 @@ async def scrape_chameleons(page, url):
             if not month:
                 continue
             title = lines[i - 1]
-            if not title or DATE_RE.match(title) or title.lower() in CHAMELEONS_STANDARD:
+            if not title or date_re.match(title) or title.lower() in CHAMELEONS_STANDARD:
                 continue
             try:
                 dt = datetime(int(year_str), month, int(day_str))
@@ -450,50 +447,36 @@ async def scrape_chameleons(page, url):
             seen.add(key)
             e = make_event(dt, 'Chameleons', 'Darlaston, West Midlands', 'chameleons', title, url)
             if e:
-                events.append(e)
+                out.append(e)
+        return out
 
+    events = []
+    try:
+        req = _urllib.Request(url, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        })
+        with _urllib.urlopen(req, timeout=20) as r:
+            raw = r.read().decode('utf-8', errors='replace')
+        events = parse_chameleons_html(raw)
         if events:
             print(f"Chameleons (direct read): {len(events)} events", file=sys.stderr)
             return events
-        print("Chameleons: direct read got 0 events, trying Playwright scroll fallback", file=sys.stderr)
+        print("Chameleons: direct read got 0 events, trying Playwright", file=sys.stderr)
     except Exception as ex:
         print(f"Chameleons direct-read error: {ex} -> trying Playwright", file=sys.stderr)
 
-    # Fallback: old scroll-based approach, kept in case the page structure changes
-    events = []
+    # Fallback: some sites block GitHub Actions' plain HTTP requests specifically -
+    # load with a real browser instead and parse the same rendered HTML the same way
     try:
         await page.goto(url, wait_until='domcontentloaded', timeout=30000)
-        await page.wait_for_timeout(3000)
-
-        for _ in range(8):
-            await page.evaluate("window.scrollBy(0, 1200)")
-            await page.wait_for_timeout(800)
-
-        text = await page.inner_text('body')
-        lines = [l.strip() for l in text.split('\n') if l.strip()]
-        seen = set()
-        for i, line in enumerate(lines):
-            dt = parse_date_text(line)
-            if not dt or not in_range(dt): continue
-            title = None
-            for j in [i-1, i-2, i+1]:
-                if 0 <= j < len(lines):
-                    candidate = lines[j].strip()
-                    if (candidate and not parse_date_text(candidate)
-                            and 4 < len(candidate) < 100
-                            and candidate.lower() not in CHAMELEONS_STANDARD):
-                        title = candidate
-                        break
-            if title:
-                key = (dt.date(), title.lower())
-                if key not in seen:
-                    seen.add(key)
-                    e = make_event(dt, 'Chameleons', 'Darlaston, West Midlands', 'chameleons', title, url)
-                    if e: events.append(e)
+        await page.wait_for_timeout(2000)
+        raw = await page.content()
+        events = parse_chameleons_html(raw)
     except Exception as ex:
-        print(f"Chameleons Playwright fallback error: {ex}", file=sys.stderr)
+        print(f"Chameleons Playwright error: {ex}", file=sys.stderr)
+        events = []
 
-    print(f"Chameleons (scroll fallback): {len(events)} events", file=sys.stderr)
+    print(f"Chameleons (Playwright): {len(events)} events", file=sys.stderr)
     return events
 
 async def scrape_attic(page, url):
