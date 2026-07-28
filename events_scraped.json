@@ -25,17 +25,6 @@
     "d": "2026-07-30",
     "m": "jul",
     "day": "Thursday 30 July 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Silks &#038; Skins Spa Day",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Silks &#038; Skins Spa Day at Club Ignite, West Drayton. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-30",
-    "m": "jul",
-    "day": "Thursday 30 July 2026",
     "club": "Club F",
     "city": "Stanley, County Durham",
     "cls": "clubf",
@@ -53,17 +42,6 @@
     "event": "DROP DEAD FRED",
     "url": "https://clubplay.net/events/fri-31st-july-%f0%9f%92%9a%f0%9f%a7%a1%f0%9f%96%a4-drop-dead-fred-%f0%9f%92%9a%f0%9f%a7%a1%f0%9f%96%a4/",
     "desc": "DROP DEAD FRED at Club Play, Blackpool. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-31",
-    "m": "jul",
-    "day": "Friday 31 July 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-07-31",
@@ -102,23 +80,34 @@
     "d": "2026-07-31",
     "m": "jul",
     "day": "Friday 31 July 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Couples &#038; Singles Friday",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Couples &#038; Singles Friday at Club Ignite, West Drayton. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-07-31",
-    "m": "jul",
-    "day": "Friday 31 July 2026",
     "club": "V2V",
     "city": "Nuneaton, Warwickshire",
     "cls": "v2v",
     "event": "ViVid (Bi Party)",
     "url": "https://v2v.uk/events/vivid-bi-party",
     "desc": "ViVid (Bi Party) at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-07-31",
+    "m": "jul",
+    "day": "Friday 31 July 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "Vanilla Social - SWEET ESCAPE WEEKENDER",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "Vanilla Social - SWEET ESCAPE WEEKENDER at The Mirage, Lincoln. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-07-31",
+    "m": "jul",
+    "day": "Friday 31 July 2026",
+    "club": "Steel Cliffe",
+    "city": "Sheffield",
+    "cls": "steelcliffe",
+    "event": "Kink Night",
+    "url": "https://steelcliffe.com/",
+    "desc": "Kink Night at Steel Cliffe, Sheffield. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-01",
@@ -146,34 +135,12 @@
     "d": "2026-08-01",
     "m": "aug",
     "day": "Saturday 1 August 2026",
-    "club": "Swindon SC",
-    "city": "Swindon",
-    "cls": "swindon",
-    "event": "WICKED: AROUND 100 COUPLES ATTENDING",
-    "url": "https://swindonswingers.com/swindon-swingers-club-wicked-couples-event/",
-    "desc": "WICKED: AROUND 100 COUPLES ATTENDING at Swindon SC, Swindon. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-01",
-    "m": "aug",
-    "day": "Saturday 1 August 2026",
     "club": "Club Alchemy",
     "city": "Northwich",
     "cls": "alchemy",
     "event": "Dark Velvet",
     "url": "https://www.clubalchemy.co.uk/events/dark-velvet-2026-08-01-Sn_c",
     "desc": "Dark Velvet at Club Alchemy, Northwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-01",
-    "m": "aug",
-    "day": "Saturday 1 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "LiberateD",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "LiberateD at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-01",
@@ -212,17 +179,6 @@
     "d": "2026-08-01",
     "m": "aug",
     "day": "Saturday 1 August 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Couples &#038; Singles Saturday",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Couples &#038; Singles Saturday at Club Ignite, West Drayton. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-01",
-    "m": "aug",
-    "day": "Saturday 1 August 2026",
     "club": "atlantisEVOLUTION",
     "city": "Stoke-on-Trent",
     "cls": "atlantis",
@@ -242,15 +198,15 @@
     "desc": "Metal & Mischief (Hosted By Thorsome) at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
   },
   {
-    "d": "2026-08-02",
+    "d": "2026-08-01",
     "m": "aug",
-    "day": "Sunday 2 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
+    "day": "Saturday 1 August 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "Summer's Sweet Escape",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "Summer's Sweet Escape at The Mirage, Lincoln. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-02",
@@ -297,17 +253,6 @@
     "desc": "our dedicated bisexual day, all steam at Pandoras, Armley, Leeds. Visit the website for full details and booking."
   },
   {
-    "d": "2026-08-06",
-    "m": "aug",
-    "day": "Thursday 6 August 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Silks &#038; Skins Spa Day",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Silks &#038; Skins Spa Day at Club Ignite, West Drayton. Visit the website for full details and booking."
-  },
-  {
     "d": "2026-08-07",
     "m": "aug",
     "day": "Friday 7 August 2026",
@@ -328,17 +273,6 @@
     "event": "Swing & Play @",
     "url": "https://clubplay.net/events/friday-7th-august-swing-play-club-play/",
     "desc": "Swing & Play @ at Club Play, Blackpool. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-07",
-    "m": "aug",
-    "day": "Friday 7 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Queens of the Scene",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Queens of the Scene at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-07",
@@ -377,23 +311,23 @@
     "d": "2026-08-07",
     "m": "aug",
     "day": "Friday 7 August 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Flirt and Fling",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Flirt and Fling at Club Ignite, West Drayton. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-07",
-    "m": "aug",
-    "day": "Friday 7 August 2026",
     "club": "V2V",
     "city": "Nuneaton, Warwickshire",
     "cls": "v2v",
     "event": "Sexy Supes (Hosted By MSChaps90)",
     "url": "https://v2v.uk/events/sexy-supes-hosted-by-mschaps90",
     "desc": "Sexy Supes (Hosted By MSChaps90) at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-07",
+    "m": "aug",
+    "day": "Friday 7 August 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "SUMMER LOVIN FRIDAY",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "SUMMER LOVIN FRIDAY at The Mirage, Lincoln. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-08",
@@ -421,17 +355,6 @@
     "d": "2026-08-08",
     "m": "aug",
     "day": "Saturday 8 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-08",
-    "m": "aug",
-    "day": "Saturday 8 August 2026",
     "club": "Purple Mamba",
     "city": "Nottingham",
     "cls": "mamba",
@@ -454,23 +377,34 @@
     "d": "2026-08-08",
     "m": "aug",
     "day": "Saturday 8 August 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Couples &#038; Ladies ONLY Saturday Party",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Couples &#038; Ladies ONLY Saturday Party at Club Ignite, West Drayton. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-08",
-    "m": "aug",
-    "day": "Saturday 8 August 2026",
     "club": "V2V",
     "city": "Nuneaton, Warwickshire",
     "cls": "v2v",
     "event": "Roll To Play",
     "url": "https://v2v.uk/events/roll-to-play-hosted-by-rodgeredthecabingirl",
     "desc": "Roll To Play at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-08",
+    "m": "aug",
+    "day": "Saturday 8 August 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "THE DIXIES ALTERNATIVE EVENTS PRESENTS REGGAE & DANCEHALL NIGHT",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "THE DIXIES ALTERNATIVE EVENTS PRESENTS REGGAE & DANCEHALL NIGHT at The Mirage, Lincoln. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-08",
+    "m": "aug",
+    "day": "Saturday 8 August 2026",
+    "club": "Steel Cliffe",
+    "city": "Sheffield",
+    "cls": "steelcliffe",
+    "event": "Playing the field",
+    "url": "https://steelcliffe.com/",
+    "desc": "Playing the field at Steel Cliffe, Sheffield. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-09",
@@ -509,17 +443,6 @@
     "d": "2026-08-13",
     "m": "aug",
     "day": "Thursday 13 August 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Silks &#038; Skins Spa Day",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Silks &#038; Skins Spa Day at Club Ignite, West Drayton. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-13",
-    "m": "aug",
-    "day": "Thursday 13 August 2026",
     "club": "Club F",
     "city": "Stanley, County Durham",
     "cls": "clubf",
@@ -548,17 +471,6 @@
     "event": "14th August Temptation - Let the Desire of Temptation Draw You In",
     "url": "https://clubplay.net/events/14th-august-temptation-let-the-desire-of-temptation-draw-you-in-8pm-till-3am/",
     "desc": "14th August Temptation - Let the Desire of Temptation Draw You In at Club Play, Blackpool. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-14",
-    "m": "aug",
-    "day": "Friday 14 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Hot Garage Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Hot Garage Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-14",
@@ -605,6 +517,17 @@
     "desc": "La Fiesta Del Sol - Hosted By Matt & Maddie (MandMxxxx) at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
   },
   {
+    "d": "2026-08-14",
+    "m": "aug",
+    "day": "Friday 14 August 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "KINK & CURIOUS",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "KINK & CURIOUS at The Mirage, Lincoln. Visit the website for full details and booking."
+  },
+  {
     "d": "2026-08-15",
     "m": "aug",
     "day": "Saturday 15 August 2026",
@@ -641,28 +564,6 @@
     "d": "2026-08-15",
     "m": "aug",
     "day": "Saturday 15 August 2026",
-    "club": "Swindon SC",
-    "city": "Swindon",
-    "cls": "swindon",
-    "event": "REMIX: AROUND 200 attending",
-    "url": "https://swindonswingers.com/swindon-swingers-club-remix-gay-straight-bi-bisexual-event-couples-singles/",
-    "desc": "REMIX: AROUND 200 attending at Swindon SC, Swindon. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-15",
-    "m": "aug",
-    "day": "Saturday 15 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Insatiable Desires &#8211; Country",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Insatiable Desires &#8211; Country at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-15",
-    "m": "aug",
-    "day": "Saturday 15 August 2026",
     "club": "Purple Mamba",
     "city": "Nottingham",
     "cls": "mamba",
@@ -685,23 +586,34 @@
     "d": "2026-08-15",
     "m": "aug",
     "day": "Saturday 15 August 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Couples &#038; Singles Saturday",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Couples &#038; Singles Saturday at Club Ignite, West Drayton. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-15",
-    "m": "aug",
-    "day": "Saturday 15 August 2026",
     "club": "V2V",
     "city": "Nuneaton, Warwickshire",
     "cls": "v2v",
     "event": "Flirts & Firsts",
     "url": "https://v2v.uk/events/flirts-firsts-couples-ladies-night",
     "desc": "Flirts & Firsts at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-15",
+    "m": "aug",
+    "day": "Saturday 15 August 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "TWO WILDCARDS PRESENTS: AMALFI COAST SUMMER PARTY",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "TWO WILDCARDS PRESENTS: AMALFI COAST SUMMER PARTY at The Mirage, Lincoln. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-15",
+    "m": "aug",
+    "day": "Saturday 15 August 2026",
+    "club": "Steel Cliffe",
+    "city": "Sheffield",
+    "cls": "steelcliffe",
+    "event": "Circus after Dark",
+    "url": "https://steelcliffe.com/",
+    "desc": "Circus after Dark at Steel Cliffe, Sheffield. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-16",
@@ -740,17 +652,6 @@
     "d": "2026-08-20",
     "m": "aug",
     "day": "Thursday 20 August 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Silks &#038; Skins Spa Day",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Silks &#038; Skins Spa Day at Club Ignite, West Drayton. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-20",
-    "m": "aug",
-    "day": "Thursday 20 August 2026",
     "club": "V2V",
     "city": "Nuneaton, Warwickshire",
     "cls": "v2v",
@@ -773,17 +674,6 @@
     "d": "2026-08-21",
     "m": "aug",
     "day": "Friday 21 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-21",
-    "m": "aug",
-    "day": "Friday 21 August 2026",
     "club": "Purple Mamba",
     "city": "Nottingham",
     "cls": "mamba",
@@ -801,17 +691,6 @@
     "event": "Time to Share Your Secret Sins",
     "url": "https://leboudoir.club/events/82892",
     "desc": "Time to Share Your Secret Sins at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-21",
-    "m": "aug",
-    "day": "Friday 21 August 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Couples &#038; Singles Friday",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Couples &#038; Singles Friday at Club Ignite, West Drayton. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-21",
@@ -850,17 +729,6 @@
     "d": "2026-08-22",
     "m": "aug",
     "day": "Saturday 22 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Movie Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Movie Night at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-22",
-    "m": "aug",
-    "day": "Saturday 22 August 2026",
     "club": "Purple Mamba",
     "city": "Nottingham",
     "cls": "mamba",
@@ -878,17 +746,6 @@
     "event": "THE WILD THINGS PARTY",
     "url": "https://leboudoir.club/events/83066",
     "desc": "THE WILD THINGS PARTY at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-22",
-    "m": "aug",
-    "day": "Saturday 22 August 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Neon Social at Ignite",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Neon Social at Ignite at Club Ignite, West Drayton. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-22",
@@ -913,15 +770,26 @@
     "desc": "Vanilla To Vixen - Aphrodite's Temple Party at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
   },
   {
-    "d": "2026-08-23",
+    "d": "2026-08-22",
     "m": "aug",
-    "day": "Sunday 23 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
+    "day": "Saturday 22 August 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "THE LINCOLN SOCIAL",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "THE LINCOLN SOCIAL |The Mirage at The Mirage, Lincoln. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-26",
+    "m": "aug",
+    "day": "Wednesday 26 August 2026",
+    "club": "Steel Cliffe",
+    "city": "Sheffield",
+    "cls": "steelcliffe",
+    "event": "Kink Night",
+    "url": "https://steelcliffe.com/",
+    "desc": "Kink Night at Steel Cliffe, Sheffield. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-27",
@@ -933,17 +801,6 @@
     "event": "Bisexual Day At Pandora",
     "url": "https://www.pandoraswingers.com/event-diary",
     "desc": "Bisexual Day At Pandora at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-27",
-    "m": "aug",
-    "day": "Thursday 27 August 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Silks &#038; Skins Spa Day",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Silks &#038; Skins Spa Day at Club Ignite, West Drayton. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-27",
@@ -971,34 +828,12 @@
     "d": "2026-08-28",
     "m": "aug",
     "day": "Friday 28 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-28",
-    "m": "aug",
-    "day": "Friday 28 August 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
     "event": "EYES WIDE SHUT",
     "url": "https://leboudoir.club/events/88393",
     "desc": "EYES WIDE SHUT at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-28",
-    "m": "aug",
-    "day": "Friday 28 August 2026",
-    "club": "Club Ignite",
-    "city": "West Drayton",
-    "cls": "ignite",
-    "event": "Couples &#038; Singles Friday",
-    "url": "https://club-ignite.co.uk/events-new/",
-    "desc": "Couples &#038; Singles Friday at Club Ignite, West Drayton. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-28",
@@ -1043,17 +878,6 @@
     "event": "Club Play's 8th Anniversary Party - Dirty Dancing v Grease",
     "url": "https://clubplay.net/events/sat-29th-aug-club-plays-8th-anniversary-party-dirty-dancing-v-grease-free-licensed-bar-buffet/",
     "desc": "Club Play's 8th Anniversary Party - Dirty Dancing v Grease at Club Play, Blackpool. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-29",
-    "m": "aug",
-    "day": "Saturday 29 August 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-29",
@@ -1158,17 +982,6 @@
     "d": "2026-09-04",
     "m": "sep",
     "day": "Friday 4 September 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Libertine",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Libertine at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-04",
-    "m": "sep",
-    "day": "Friday 4 September 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
@@ -1235,34 +1048,12 @@
     "d": "2026-09-05",
     "m": "sep",
     "day": "Saturday 5 September 2026",
-    "club": "Swindon SC",
-    "city": "Swindon",
-    "cls": "swindon",
-    "event": "WICKED: 90S",
-    "url": "https://swindonswingers.com/swindon-swingers-club-wicked-couples-event/",
-    "desc": "WICKED: 90S at Swindon SC, Swindon. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-05",
-    "m": "sep",
-    "day": "Saturday 5 September 2026",
     "club": "Club Alchemy",
     "city": "Northwich",
     "cls": "alchemy",
     "event": "Dark Velvet",
     "url": "https://www.clubalchemy.co.uk/events/darkvelvet-2026-09-05-btUW",
     "desc": "Dark Velvet at Club Alchemy, Northwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-05",
-    "m": "sep",
-    "day": "Saturday 5 September 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Passion Casino",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Passion Casino at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-05",
@@ -1287,6 +1078,28 @@
     "desc": "V2V Back To School Reunion Party at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
   },
   {
+    "d": "2026-09-05",
+    "m": "sep",
+    "day": "Saturday 5 September 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "Midnight Mischief presents RAUNCHY RANCH",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "Midnight Mischief presents RAUNCHY RANCH at The Mirage, Lincoln. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-09-05",
+    "m": "sep",
+    "day": "Saturday 5 September 2026",
+    "club": "Steel Cliffe",
+    "city": "Sheffield",
+    "cls": "steelcliffe",
+    "event": "Bargain Bang",
+    "url": "https://steelcliffe.com/",
+    "desc": "Bargain Bang at Steel Cliffe, Sheffield. Visit the website for full details and booking."
+  },
+  {
     "d": "2026-09-06",
     "m": "sep",
     "day": "Sunday 6 September 2026",
@@ -1296,17 +1109,6 @@
     "event": "UPCOMING EVENTS",
     "url": "https://www.pandoraswingers.com/event-diary",
     "desc": "UPCOMING EVENTS at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-06",
-    "m": "sep",
-    "day": "Sunday 6 September 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-10",
@@ -1329,17 +1131,6 @@
     "event": "t Crossroads: Tempt and Tease @",
     "url": "https://clubplay.net/events/fri-11th-sept-%e2%9d%8ccrossroads%e2%9d%8c-%e2%9d%a4%ef%b8%8f%f0%9f%94%a5tempt-and-tease%e2%9d%a4%ef%b8%8f%f0%9f%94%a5-club-play-8pm-till-3am/",
     "desc": "t Crossroads: Tempt and Tease @ at Club Play, Blackpool. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-11",
-    "m": "sep",
-    "day": "Friday 11 September 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-11",
@@ -1389,34 +1180,12 @@
     "d": "2026-09-12",
     "m": "sep",
     "day": "Saturday 12 September 2026",
-    "club": "Swindon SC",
-    "city": "Swindon",
-    "cls": "swindon",
-    "event": "KINKY: RSVP ON FET ONLY OR via direct contact with us via fab.",
-    "url": "https://swindonswingers.com/swindon-swingers-club-bdsm-kinky-fetish/",
-    "desc": "KINKY: RSVP ON FET ONLY OR via direct contact with us via fab. at Swindon SC, Swindon. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-12",
-    "m": "sep",
-    "day": "Saturday 12 September 2026",
     "club": "Club Alchemy",
     "city": "Northwich",
     "cls": "alchemy",
     "event": "Curve Nation",
     "url": "https://www.clubalchemy.co.uk/events/curve-nation-2026-09-12-YmLo",
     "desc": "Curve Nation at Club Alchemy, Northwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-12",
-    "m": "sep",
-    "day": "Saturday 12 September 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Alternative Affair",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Alternative Affair at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-12",
@@ -1439,28 +1208,6 @@
     "event": "Exposed Party (Hosted By Mrs N)",
     "url": "https://v2v.uk/events/exposed-party-hosted-by-mrs-n",
     "desc": "Exposed Party (Hosted By Mrs N) at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-13",
-    "m": "sep",
-    "day": "Sunday 13 September 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Sunday Funday",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Sunday Funday at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-18",
-    "m": "sep",
-    "day": "Friday 18 September 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-18",
@@ -1510,17 +1257,6 @@
     "d": "2026-09-19",
     "m": "sep",
     "day": "Saturday 19 September 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Liberty Lounge",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Liberty Lounge at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-19",
-    "m": "sep",
-    "day": "Saturday 19 September 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
@@ -1549,17 +1285,6 @@
     "event": "Bi-Party",
     "url": "https://www.clubf.uk/events",
     "desc": "Bi-Party at Club F, Stanley, County Durham. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-25",
-    "m": "sep",
-    "day": "Friday 25 September 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-25",
@@ -1609,17 +1334,6 @@
     "d": "2026-09-26",
     "m": "sep",
     "day": "Saturday 26 September 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Swingo Bingo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Swingo Bingo at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-26",
-    "m": "sep",
-    "day": "Saturday 26 September 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
@@ -1650,26 +1364,15 @@
     "desc": "Fusion After Dark at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
   },
   {
-    "d": "2026-09-27",
+    "d": "2026-09-26",
     "m": "sep",
-    "day": "Sunday 27 September 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "CUCKOLD COUPLES &#038; BULLS",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "CUCKOLD COUPLES &#038; BULLS at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-02",
-    "m": "oct",
-    "day": "Friday 2 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Queens of the Scene",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Queens of the Scene at Liberty Elite, Midlands. Visit the website for full details and booking."
+    "day": "Saturday 26 September 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "FRISKYDISKO HEDONISM THE IBIZA CLOSING PARTY",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "FRISKYDISKO HEDONISM THE IBIZA CLOSING PARTY at The Mirage, Lincoln. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-02",
@@ -1697,17 +1400,6 @@
     "d": "2026-10-03",
     "m": "oct",
     "day": "Saturday 3 October 2026",
-    "club": "Swindon SC",
-    "city": "Swindon",
-    "cls": "swindon",
-    "event": "WICKED: AROUND 100 COUPLES ATTENDING",
-    "url": "https://swindonswingers.com/swindon-swingers-club-wicked-couples-event/",
-    "desc": "WICKED: AROUND 100 COUPLES ATTENDING at Swindon SC, Swindon. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-03",
-    "m": "oct",
-    "day": "Saturday 3 October 2026",
     "club": "Club Alchemy",
     "city": "Northwich",
     "cls": "alchemy",
@@ -1719,34 +1411,12 @@
     "d": "2026-10-03",
     "m": "oct",
     "day": "Saturday 3 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Casino Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Casino Night at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-03",
-    "m": "oct",
-    "day": "Saturday 3 October 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
     "event": "KISS with INTRODUCTORY NEWBIE HOURS",
     "url": "https://leboudoir.club/events/83021",
     "desc": "KISS with INTRODUCTORY NEWBIE HOURS at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-04",
-    "m": "oct",
-    "day": "Sunday 4 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-06",
@@ -1774,17 +1444,6 @@
     "d": "2026-10-09",
     "m": "oct",
     "day": "Friday 9 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Temptation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Temptation at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-09",
-    "m": "oct",
-    "day": "Friday 9 October 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
@@ -1807,45 +1466,12 @@
     "d": "2026-10-10",
     "m": "oct",
     "day": "Saturday 10 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-10",
-    "m": "oct",
-    "day": "Saturday 10 October 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
     "event": "Indulge your secret TABOO",
     "url": "https://leboudoir.club/events/83032",
     "desc": "Indulge your secret TABOO at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-11",
-    "m": "oct",
-    "day": "Sunday 11 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "The CMnf Organisation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "The CMnf Organisation at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-16",
-    "m": "oct",
-    "day": "Friday 16 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-16",
@@ -1884,17 +1510,6 @@
     "d": "2026-10-17",
     "m": "oct",
     "day": "Saturday 17 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Naughties",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Naughties at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-17",
-    "m": "oct",
-    "day": "Saturday 17 October 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
@@ -1912,17 +1527,6 @@
     "event": "NIGHT OF THE HUNTRESS",
     "url": "https://leboudoir.club/events/82809",
     "desc": "NIGHT OF THE HUNTRESS at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-23",
-    "m": "oct",
-    "day": "Friday 23 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Halloween: The Beginning",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Halloween: The Beginning at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-23",
@@ -1950,34 +1554,12 @@
     "d": "2026-10-24",
     "m": "oct",
     "day": "Saturday 24 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Halloween: The Second Coming",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Halloween: The Second Coming at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-24",
-    "m": "oct",
-    "day": "Saturday 24 October 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
     "event": "THE WILD THINGS PARTY",
     "url": "https://leboudoir.club/events/83068",
     "desc": "THE WILD THINGS PARTY at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-25",
-    "m": "oct",
-    "day": "Sunday 25 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Halloween: The Hangover",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Halloween: The Hangover at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-29",
@@ -1991,15 +1573,15 @@
     "desc": "Bi-Party at Club F, Stanley, County Durham. Visit the website for full details and booking."
   },
   {
-    "d": "2026-10-30",
+    "d": "2026-10-29",
     "m": "oct",
-    "day": "Friday 30 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
+    "day": "Thursday 29 October 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "LINCOLN PLAY MUNCH BDSM MASQUERADE BALL",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "LINCOLN PLAY MUNCH BDSM MASQUERADE BALL at The Mirage, Lincoln. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-30",
@@ -2038,34 +1620,12 @@
     "d": "2026-10-31",
     "m": "oct",
     "day": "Saturday 31 October 2026",
-    "club": "Swindon SC",
-    "city": "Swindon",
-    "cls": "swindon",
-    "event": "WICKED: AROUND 100 COUPLES ATTENDING",
-    "url": "https://swindonswingers.com/swindon-swingers-club-wicked-couples-event/",
-    "desc": "WICKED: AROUND 100 COUPLES ATTENDING at Swindon SC, Swindon. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-31",
-    "m": "oct",
-    "day": "Saturday 31 October 2026",
     "club": "Club Alchemy",
     "city": "Northwich",
     "cls": "alchemy",
     "event": "Halloween Party",
     "url": "https://www.clubalchemy.co.uk/events/halloween-party-2026-10-31",
     "desc": "Halloween Party at Club Alchemy, Northwich. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-31",
-    "m": "oct",
-    "day": "Saturday 31 October 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-31",
@@ -2079,17 +1639,6 @@
     "desc": "DIA DE LOS MUERTOS, EL FINAL - PART at Le Boudoir, City of London. Visit the website for full details and booking."
   },
   {
-    "d": "2026-11-01",
-    "m": "nov",
-    "day": "Sunday 1 November 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
     "d": "2026-11-03",
     "m": "nov",
     "day": "Tuesday 3 November 2026",
@@ -2099,17 +1648,6 @@
     "event": "Tease Tuesday",
     "url": "https://www.clubf.uk/events",
     "desc": "Tease Tuesday at Club F, Stanley, County Durham. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-06",
-    "m": "nov",
-    "day": "Friday 6 November 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Libertine",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Libertine at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-06",
@@ -2137,34 +1675,12 @@
     "d": "2026-11-07",
     "m": "nov",
     "day": "Saturday 7 November 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Firework Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Firework Night at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-07",
-    "m": "nov",
-    "day": "Saturday 7 November 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
     "event": "KISS with INTRODUCTORY NEWBIE HOURS",
     "url": "https://leboudoir.club/events/83022",
     "desc": "KISS with INTRODUCTORY NEWBIE HOURS at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-08",
-    "m": "nov",
-    "day": "Sunday 8 November 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Sunday Funday",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Sunday Funday at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-12",
@@ -2181,34 +1697,12 @@
     "d": "2026-11-13",
     "m": "nov",
     "day": "Friday 13 November 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-13",
-    "m": "nov",
-    "day": "Friday 13 November 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
     "event": "RAPTURE!",
     "url": "https://leboudoir.club/events/82851",
     "desc": "RAPTURE! at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-14",
-    "m": "nov",
-    "day": "Saturday 14 November 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-14",
@@ -2222,15 +1716,15 @@
     "desc": "GIRLS JUST WANNA HAVE FUN at Le Boudoir, City of London. Visit the website for full details and booking."
   },
   {
-    "d": "2026-11-20",
+    "d": "2026-11-14",
     "m": "nov",
-    "day": "Friday 20 November 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "DC &#8211; Kinky Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "DC &#8211; Kinky Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
+    "day": "Saturday 14 November 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "SINS OF OLYMPUS Hosted by Ultimate Kinks",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "SINS OF OLYMPUS Hosted by Ultimate Kinks at The Mirage, Lincoln. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-20",
@@ -2258,17 +1752,6 @@
     "d": "2026-11-21",
     "m": "nov",
     "day": "Saturday 21 November 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Liberty Lounge",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Liberty Lounge at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-21",
-    "m": "nov",
-    "day": "Saturday 21 November 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
@@ -2277,15 +1760,15 @@
     "desc": "CONFESSIONS at Le Boudoir, City of London. Visit the website for full details and booking."
   },
   {
-    "d": "2026-11-22",
+    "d": "2026-11-21",
     "m": "nov",
-    "day": "Sunday 22 November 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
+    "day": "Saturday 21 November 2026",
+    "club": "The Mirage",
+    "city": "Lincoln",
+    "cls": "mirage",
+    "event": "WINTER GLOW GLOW WILD",
+    "url": "https://themiragelincoln.co.uk/events",
+    "desc": "WINTER GLOW GLOW WILD at The Mirage, Lincoln. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-26",
@@ -2302,34 +1785,12 @@
     "d": "2026-11-27",
     "m": "nov",
     "day": "Friday 27 November 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-27",
-    "m": "nov",
-    "day": "Friday 27 November 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
     "event": "THE MORE THE MERRIER!",
     "url": "https://leboudoir.club/events/82863",
     "desc": "THE MORE THE MERRIER! at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-11-28",
-    "m": "nov",
-    "day": "Saturday 28 November 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Alternative Affair",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Alternative Affair at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-28",
@@ -2368,34 +1829,12 @@
     "d": "2026-12-04",
     "m": "dec",
     "day": "Friday 4 December 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Queens of the Scene",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Queens of the Scene at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-12-04",
-    "m": "dec",
-    "day": "Friday 4 December 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
     "event": "BOUDOIR NOIR",
     "url": "https://leboudoir.club/events/82828",
     "desc": "BOUDOIR NOIR at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-12-05",
-    "m": "dec",
-    "day": "Saturday 5 December 2026",
-    "club": "Swindon SC",
-    "city": "Swindon",
-    "cls": "swindon",
-    "event": "WICKED: ALL I WANT FOR CHRISTMAS IS YOU",
-    "url": "https://swindonswingers.com/swindon-swingers-club-wicked-couples-event/",
-    "desc": "WICKED: ALL I WANT FOR CHRISTMAS IS YOU at Swindon SC, Swindon. Visit the website for full details and booking."
   },
   {
     "d": "2026-12-05",
@@ -2412,34 +1851,12 @@
     "d": "2026-12-05",
     "m": "dec",
     "day": "Saturday 5 December 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "LiberateD",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "LiberateD at Liberty Elite, Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-12-05",
-    "m": "dec",
-    "day": "Saturday 5 December 2026",
     "club": "Le Boudoir",
     "city": "City of London",
     "cls": "leboudoir",
     "event": "KISS with INTRODUCTORY NEWBIE HOURS",
     "url": "https://leboudoir.club/events/83008",
     "desc": "KISS with INTRODUCTORY NEWBIE HOURS at Le Boudoir, City of London. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-12-06",
-    "m": "dec",
-    "day": "Sunday 6 December 2026",
-    "club": "Liberty Elite",
-    "city": "Midlands",
-    "cls": "liberty",
-    "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-07-28",
-    "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-12-10",
@@ -2552,28 +1969,6 @@
     "desc": "Dark Velvet at Club Alchemy, Northwich. Visit the website for full details and booking."
   },
   {
-    "d": "2027-02-07",
-    "m": "feb",
-    "day": "Sunday 7 February 2027",
-    "club": "Swindon SC",
-    "city": "Swindon",
-    "cls": "swindon",
-    "event": "WICKED: who can attend",
-    "url": "https://swindonswingers.com/swindon-swingers-club-wicked-couples-event/",
-    "desc": "WICKED: who can attend at Swindon SC, Swindon. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-05-31",
-    "m": "may",
-    "day": "Monday 31 May 2027",
-    "club": "Swindon SC",
-    "city": "Swindon",
-    "cls": "swindon",
-    "event": "COITUS: launch",
-    "url": "https://swindonswingers.com/swindon-swingers-club-coitus/",
-    "desc": "COITUS: launch at Swindon SC, Swindon. Visit the website for full details and booking."
-  },
-  {
     "d": "2027-06-13",
     "m": "jun",
     "day": "Sunday 13 June 2027",
@@ -2594,17 +1989,6 @@
     "event": "PRIDE PARTY",
     "url": "https://www.chunkymuffins.co.uk/post/pride-party",
     "desc": "PRIDE PARTY at Chunky Muffins, Boston, Lincolnshire. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-07-11",
-    "m": "jul",
-    "day": "Sunday 11 July 2027",
-    "club": "Swindon SC",
-    "city": "Swindon",
-    "cls": "swindon",
-    "event": "REMIX: who can attend",
-    "url": "https://swindonswingers.com/swindon-swingers-club-remix-gay-straight-bi-bisexual-event-couples-singles/",
-    "desc": "REMIX: who can attend at Swindon SC, Swindon. Visit the website for full details and booking."
   },
   {
     "d": "2027-07-11",
