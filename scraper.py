@@ -2402,7 +2402,114 @@ CLUB_SCRAPERS = [
     ("V2V",                "https://v2v.uk/events",                                                  scrape_v2v),
     ("Chunky Muffins",     "https://www.chunkymuffins.co.uk",                                        scrape_chunkymuffins),
     ("Club F",             "https://www.clubf.uk/events",                                            scrape_clubf),
+    ("The Mirage",         "https://themiragelincoln.co.uk/events",                                 scrape_mirage),
+    ("Steel Cliffe",       "https://steelcliffe.com/",                                              scrape_steelcliffe),
 ]
+
+
+async def scrape_mirage(page, url):
+    """The Mirage, Lincoln (near Caenby Corner): client-rendered events list (JS required).
+    Playwright + line-walk text parse. Drops 'Lambrini & Licks Sundays' (recurring monthly
+    night, not a named special) per site owner decision."""
+    import sys
+    try:
+        await page.goto(url, wait_until='domcontentloaded', timeout=30000)
+        await page.wait_for_timeout(4000)
+        text = await page.inner_text('body')
+    except Exception as ex:
+        print(f"The Mirage error: {ex}", file=sys.stderr)
+        return []
+
+    # Only the "Upcoming nights" section - drop the Archive (past events)
+    text = re.split(r'\bARCHIVE\b', text, maxsplit=1, flags=re.I)[0]
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+
+    DATE_RE = re.compile(r'^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})\s*@\s*\d{1,2}:\d{2}\s*[AP]M$', re.I)
+    MIRAGE_STD = {'lambrini', 'licks sunday'}  # recurring monthly night, filtered like a standard night
+
+    events = []
+    i = 0
+    while i < len(lines) - 1:
+        m = DATE_RE.match(lines[i])
+        if m:
+            mon_str, day_str, year_str = m.groups()
+            month = MMAP.get(mon_str.lower())
+            title = lines[i + 1]
+            if month:
+                try:
+                    dt = datetime(int(year_str), month, int(day_str))
+                except ValueError:
+                    dt = None
+                if dt and in_range(dt) and not any(s in title.lower() for s in MIRAGE_STD):
+                    e = make_event(dt, 'The Mirage', 'Lincoln', 'mirage', title, url)
+                    if e:
+                        # Site sometimes self-references "|The Mirage" mid-title; tidy it
+                        e['event'] = re.sub(r'\s*\|\s*The Mirage\s*$', '', e['event'], flags=re.I).strip()
+                        events.append(e)
+            i += 2
+        else:
+            i += 1
+
+    print(f"The Mirage: {len(events)} events", file=sys.stderr)
+    return events
+
+
+async def scrape_steelcliffe(page, url):
+    """Steel Cliffe, Sheffield: single-page GoDaddy site, urllib first (no JS needed to
+    read the homepage events section), Playwright fallback. Keeps every listed event,
+    including repeated 'Kink Night' dates, per site owner decision."""
+    import sys, html as _html
+    try:
+        req = _urllib.Request(url, headers={
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        })
+        with _urllib.urlopen(req, timeout=20) as r:
+            raw = r.read().decode('utf-8', errors='replace')
+    except Exception as e:
+        print(f"Steel Cliffe urllib error: {e} -> trying Playwright", file=sys.stderr)
+        try:
+            await page.goto(url, wait_until='domcontentloaded', timeout=30000)
+            await page.wait_for_timeout(3000)
+            raw = await page.content()
+        except Exception as e2:
+            print(f"Steel Cliffe Playwright error: {e2}", file=sys.stderr)
+            return []
+
+    # Break onto separate lines at heading/block tags before stripping markup,
+    # otherwise date/title/time all collapse onto one line
+    raw = re.sub(r'<(h[1-6]|div|p|li)\b', r'\n<\1', raw, flags=re.I)
+    text = re.sub(r'<[^>]+>', ' ', raw)
+    text = _html.unescape(text)
+    lines = [re.sub(r'[ \t]+', ' ', l).strip() for l in text.split('\n')]
+    lines = [l for l in lines if l]
+
+    DATE_RE = re.compile(r'^(\d{2})[/\-](\d{2})[/\-](\d{4})$')
+    events = []
+    seen = set()
+    for i in range(len(lines) - 1):
+        m = DATE_RE.match(lines[i])
+        if not m:
+            continue
+        day, month, year = (int(x) for x in m.groups())
+        title = lines[i + 1]
+        if not title or DATE_RE.match(title):
+            continue
+        try:
+            dt = datetime(year, month, day)
+        except ValueError:
+            continue
+        if not in_range(dt):
+            continue
+        key = (dt.strftime('%Y-%m-%d'), title.lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        e = make_event(dt, 'Steel Cliffe', 'Sheffield', 'steelcliffe', title, url)
+        if e:
+            events.append(e)
+
+    print(f"Steel Cliffe: {len(events)} events", file=sys.stderr)
+    return events
 
 
 async def scrape_club(browser, club_name, scraper_fn, url):
