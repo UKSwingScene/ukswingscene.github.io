@@ -1,4 +1,4 @@
-# scraper.py v2.2.0 — Liberty Elite paginated DOM fallback (WP API broke after their WP update)
+# scraper.py v2.3.0 — Added The Mirage (Lincoln) + Steel Cliffe (Sheffield) scrapers
 import asyncio, json, re, urllib.request as _urllib
 from datetime import datetime, timedelta
 from playwright.async_api import async_playwright
