@@ -61,7 +61,7 @@ except:
     print("No scraped events, using manual only")
 
 def _is_bad(name):
-    if not name or len(name) < 6: return True
+    if not name or len(name) < 3: return True
     n = name.lower()
     bad = ['more info','google calendar','ics','view event','powered by','events list','event list',
            'sat, ','sun, ','mon, ','tue, ','wed, ','thu, ','fri, ',
