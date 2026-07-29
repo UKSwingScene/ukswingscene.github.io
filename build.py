@@ -30,7 +30,6 @@ CITY_OVERRIDE = {
     "New Gatehouse":             "Bolton",
     "No.3 Club":                 "Chorley, Lancashire",
     "Pandoras":                  "Armley, Leeds",
-    "Pandora's":                "Armley, Leeds",
     "Partners":                  "Bury, Manchester",
     "Penthouse Playrooms":       "Dunstable",
     "Penthouse Club":            "Dunstable",
