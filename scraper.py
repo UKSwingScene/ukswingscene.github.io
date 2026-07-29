@@ -1,4 +1,4 @@
-# scraper.py v2.6.0 — Partners: added direct-fetch path for the relaunched .com site, kept Playwright as fallback
+# scraper.py v2.7.0 — Fixed 4 dead scrapers: Jay-Dees (wrong domain, rewritten for jaydeesclub.com), The Attic (stale URL, site restructured), Xtasia (regex missed 'Flirts:'-qualified events), Shhh (site now announces via homepage banner, not /events). Added merge_same_day() so genuine same-date double-bookings combine instead of one silently vanishing in build.py's dedupe.
 import asyncio, json, re, urllib.request as _urllib
 import html as _html
 from datetime import datetime, timedelta
@@ -174,6 +174,20 @@ ATTIC_STANDARD = {'greedy girls','tv & admirers','tv and admirers','tv admirers'
                   'cinema','humpday evening cinema','frisky friday after dark','club night',
                   'standard club night','frisky friday','friday night','saturday night',
                   'cinema event','afternoon cinema','monday tv','wednesday cinema'}
+
+def merge_same_day(pairs):
+    """Combine (dt, name) pairs sharing a date into one entry, so a real
+    double-booking (two named nights, same date) doesn't silently lose one
+    when build.py dedupes on (date, club)."""
+    from collections import OrderedDict
+    grouped = OrderedDict()
+    for dt, name in pairs:
+        key = dt.strftime('%Y-%m-%d')
+        if key not in grouped:
+            grouped[key] = (dt, [])
+        if name not in grouped[key][1]:
+            grouped[key][1].append(name)
+    return [(dt, ' / '.join(names)) for dt, names in grouped.values()]
 
 QUEST_STANDARD = {'afternoon fun','evening sexy fun','evening naughtiness','funday sunday',
                   "m&n party night",'bi tuesdays','bi tuesday','t-girls cds & admirers',
@@ -480,10 +494,10 @@ async def scrape_chameleons(page, url):
     return events
 
 async def scrape_attic(page, url):
-    """The Attic: text-based calendar, filter standard nights."""
+    """The Attic (theatticexperience.com/events/, site restructured 2026 —
+    old /events-prices-2/ URL now 404s). Text-based calendar, filter standard nights."""
     await page.goto(url, wait_until='domcontentloaded', timeout=25000)
     await page.wait_for_timeout(3000)
-    events = []
     text = await page.inner_text('body')
     # Pattern: "Sat 30th May : Uniforms Party" or "Sun 7th June : Cumfest"
     pattern = re.compile(
@@ -492,22 +506,26 @@ async def scrape_attic(page, url):
         r'\s*[:\-â]\s*(.+?)(?=\n|$)', re.I
     )
     cur_year = NOW.year
+    raw_pairs = []
     for m in pattern.finditer(text):
         day_num = int(m.group(1))
         month_name = m.group(2)
         event_name = m.group(3).strip()
         if any(s in event_name.lower() for s in ATTIC_STANDARD): continue
-        if len(event_name) < 4: continue
+        if len(event_name) < 3: continue
         month = MMAP[month_name.lower()]
         year = cur_year
         try:
             dt = datetime(year, month, day_num)
             if dt < NOW - timedelta(days=1): dt = datetime(year+1, month, day_num)
             if in_range(dt):
-                e = make_event(dt, 'The Attic', 'Derby', 'attic', event_name, url)
-                if e: events.append(e)
+                raw_pairs.append((dt, event_name))
         except:
             pass
+    events = []
+    for dt, name in merge_same_day(raw_pairs):
+        e = make_event(dt, 'The Attic', 'Derby', 'attic', name, url)
+        if e: events.append(e)
     return events
 
 async def scrape_quest(page, url):
@@ -702,14 +720,51 @@ async def scrape_decadance(page, url):
     return events
 
 async def scrape_shhh(page, url):
-    """Shhh: Squarespace events list."""
-    await page.goto(url, wait_until='domcontentloaded', timeout=25000)
-    await page.wait_for_timeout(4000)
+    """Shhh: their /events page (Squarespace) has been stale for months in
+    practice — the club actually announces its (infrequent, high-production)
+    events via a hero banner on the homepage instead. Check both: homepage
+    banner first (primary source in practice), then the /events list as a
+    secondary check in case they ever start using it properly again."""
+    import sys as _sys
     events = []
-    for sel in ['.eventlist-title a', 'h1.eventlist-title a', 'h2.eventlist-title a',
-                '.event-title a', '.summary-title a']:
-        items = await page.query_selector_all(sel)
-        if items:
+    seen_dates = set()
+
+    # --- Primary: homepage hero banner ---
+    # Format seen on the live site: "EVENT NAME" / "Saturday 1 August 2026 | Venue, Address"
+    try:
+        await page.goto('https://www.shhhclub.co.uk/', wait_until='domcontentloaded', timeout=25000)
+        await page.wait_for_timeout(3000)
+        home_text = await page.inner_text('body')
+        hero_pattern = re.compile(
+            r'\n([A-Z][A-Z \'&…]{4,60})\s*\n+\s*'
+            r'(?:[A-Za-z]+day\s+)?(\d{1,2})\s+'
+            r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})'
+            r'\s*\|\s*([^\n]+)'
+        )
+        for m in hero_pattern.finditer('\n' + home_text):
+            name = m.group(1).strip()
+            try:
+                dt = datetime(int(m.group(4)), MMAP[m.group(3).lower()], int(m.group(2)))
+            except Exception:
+                continue
+            if in_range(dt):
+                e = make_event(dt, 'Shhh', 'Newcastle', 'shhh', name, 'https://www.shhhclub.co.uk/',
+                                desc=f"{name} — {m.group(5).strip()}. See the Shhh website for tickets.")
+                if e:
+                    events.append(e)
+                    seen_dates.add(e['d'])
+    except Exception as ex:
+        print(f"Shhh homepage banner check failed: {ex}", file=_sys.stderr)
+
+    # --- Secondary: /events list, in case it's ever kept current again ---
+    try:
+        await page.goto(url, wait_until='domcontentloaded', timeout=25000)
+        await page.wait_for_timeout(4000)
+        for sel in ['.eventlist-title a', 'h1.eventlist-title a', 'h2.eventlist-title a',
+                    '.event-title a', '.summary-title a']:
+            items = await page.query_selector_all(sel)
+            if not items:
+                continue
             for item in items:
                 title = (await item.inner_text()).strip()
                 href = await item.get_attribute('href') or url
@@ -721,10 +776,15 @@ async def scrape_shhh(page, url):
                 except:
                     ptext = title
                 dt = parse_date_text(ptext)
-                if dt:
+                if dt and in_range(dt):
                     e = make_event(dt, 'Shhh', 'Newcastle', 'shhh', title, href)
-                    if e: events.append(e)
-            if events: return events
+                    if e and e['d'] not in seen_dates:
+                        events.append(e)
+                        seen_dates.add(e['d'])
+            break
+    except Exception as ex:
+        print(f"Shhh /events check failed: {ex}", file=_sys.stderr)
+
     return events
 
 async def fetch_bypass(url, timeout=20):
@@ -1256,7 +1316,7 @@ async def scrape_xtasia(page, url):
     Site returns 403 to simple fetches â use Playwright with longer wait.
     Keep all named events."""
     XTASIA_STANDARD = {'guys and gals', 'ladies and couples night', 'open night',
-                       'standard club night', 'club night'}
+                       'standard club night', 'club night', 'the great headspace'}
     # Try Playwright first
     try:
         await page.goto(url, wait_until='domcontentloaded', timeout=30000)
@@ -1286,11 +1346,13 @@ async def scrape_xtasia(page, url):
         text = text.replace(ch, '-')
     events = []
     seen = set()
+    raw_pairs = []
     # Format: "Day DDth Month: Event Name (times)" all on one line
     pattern = re.compile(
         r'(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s+'
         r'(\d{1,2})[a-z]{0,2}\s+'
         r'(January|February|March|April|May|June|July|August|September|October|November|December)'
+        r'(?:\s*,\s*[A-Za-z][A-Za-z \-&]{0,20})?'  # optional room/qualifier, e.g. ", Flirts"
         r'\s*:\s*(.+?)(?:\n|\r|$)',
         re.I
     )
@@ -1313,10 +1375,13 @@ async def scrape_xtasia(page, url):
             key = dt.strftime('%Y-%m-%d') + event_name[:15]
             if key in seen: continue
             seen.add(key)
-            e = make_event(dt, 'Xtasia', 'West Bromwich', 'xtasia', event_name, url)
-            if e: events.append(e)
+            raw_pairs.append((dt, event_name))
         except:
             pass
+    events = []
+    for dt, name in merge_same_day(raw_pairs):
+        e = make_event(dt, 'Xtasia', 'West Bromwich', 'xtasia', name, url)
+        if e: events.append(e)
     print(f"  Xtasia parsed {len(events)} events")
     return events
 
@@ -2116,59 +2181,79 @@ async def scrape_chunkymuffins(page, url):
 
 
 JAYDEES_STANDARD = {
-    'sexy saturday', 'naturist spa day', 'frisky friday newbie night',
+    'sexy saturday', 'naturist spa day', 'frisky friday newbie night', 'newbie night',
 }
 
 async def scrape_jaydees(page, url):
-    """Jay-Dees St Neots: static HTML, h5 = date header, h6 = event name.
-    Standard nights filtered: Sexy Saturday, Naturist Spa Day, Frisky Friday Newbie Night."""
-    import sys, html as _html_mod
-
+    """Jay-Dees (jaydeesclub.com/blank-1 — the old jay-dees.com/events.html
+    is a dead image/canvas page, never had real text to parse; this is why
+    the scraper always returned 0). Month-blocked plain text calendar:
+    'MONTH YYYY' headers, then lines like 'FRIDAY 3rd - 8.30pm - 2am - Event
+    Name' or 'SATURDAY - 1 AUGUST 8.30 - 2am Event Name'. Filters recurring
+    standard nights (Naturist Spa Day, Newbie Night, etc)."""
+    import sys as _sys
     try:
-        req = _urllib.Request(url, headers={
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-            'Accept': 'text/html,*/*;q=0.8',
-        })
-        with _urllib.urlopen(req, timeout=20) as r:
-            raw = r.read().decode('utf-8', errors='replace')
+        await page.goto(url, wait_until='domcontentloaded', timeout=25000)
+        await page.wait_for_timeout(3000)
+        text = await page.inner_text('body')
     except Exception as ex:
-        print(f"Jay-Dees urllib error: {ex} â trying Playwright", file=sys.stderr)
-        try:
-            await page.goto(url, wait_until='domcontentloaded', timeout=25000)
-            await page.wait_for_timeout(2000)
-            raw = await page.content()
-        except Exception as ex2:
-            print(f"Jay-Dees Playwright error: {ex2}", file=sys.stderr)
-            return []
+        print(f"Jay-Dees Playwright error: {ex}", file=_sys.stderr)
+        return []
 
-    # Build ordered list of (position, type, text) for h5 (dates) and h6 (event names)
-    items = []
-    for m in re.finditer(r'<h5[^>]*>(.*?)</h5>', raw, re.I | re.S):
-        text = _html_mod.unescape(re.sub(r'<[^>]+>', '', m.group(1))).strip()
-        if text:
-            items.append((m.start(), 'date', text))
-    for m in re.finditer(r'<h6[^>]*>(.*?)</h6>', raw, re.I | re.S):
-        text = _html_mod.unescape(re.sub(r'<[^>]+>', '', m.group(1))).strip()
-        if text:
-            items.append((m.start(), 'event', text))
-    items.sort(key=lambda x: x[0])
+    DAYNAME = r'(?:MONDAY|TUESDAY|WEDNESDAY|THURSDAY|FRIDAY|SATURDAY|SUNDAY)'
+    MONTHNAME = r'(?:JANUARY|FEBRUARY|MARCH|APRIL|MAY|JUNE|JULY|AUGUST|SEPTEMBER|OCTOBER|NOVEMBER|DECEMBER)'
+    month_header_re = re.compile(rf'^({MONTHNAME})\s+(\d{{4}})$', re.I)
+    line_re = re.compile(
+        rf'^{DAYNAME}\s*(?:[-\u2013]\s*)?(\d{{1,2}})(?:st|nd|rd|th)?\s*(?:[-\u2013]\s*)?({MONTHNAME})?\s*(.*)$',
+        re.I
+    )
+    time_mid_re = re.compile(
+        r'\d{1,2}[:.]?\d{0,2}\s*(?:am|pm)?\s*[-\u2013]\s*\d{1,2}[:.]?\d{0,2}\s*(?:am|pm)?\s*[-\u2013]?\s*',
+        re.I
+    )
+
+    cur_month, cur_year = None, NOW.year
+    raw_pairs = []
+    for line in text.split('\n'):
+        line = line.strip()
+        if not line:
+            continue
+        mh = month_header_re.match(line)
+        if mh:
+            cur_month = MMAP[mh.group(1).lower()]
+            cur_year = int(mh.group(2))
+            continue
+        m = line_re.match(line)
+        if not m:
+            continue
+        day_num = int(m.group(1))
+        month = MMAP[m.group(2).lower()] if m.group(2) else cur_month
+        if not month:
+            continue
+        rest = m.group(3).strip(' -\u2013')
+        event_name = time_mid_re.sub('', rest, count=1).strip(' -\u2013')
+        if not event_name or len(event_name) < 4:
+            continue
+        if any(s in event_name.lower() for s in JAYDEES_STANDARD):
+            continue
+        try:
+            # Year always comes from an explicit "MONTH YYYY" header here, so
+            # a date that's already past just means the site hasn't trimmed
+            # it yet — skip it via in_range rather than rolling to next year.
+            dt = datetime(cur_year, month, day_num)
+            if in_range(dt):
+                raw_pairs.append((dt, event_name))
+        except Exception:
+            pass
 
     events = []
-    current_dt = None
-    for _, typ, text in items:
-        if typ == 'date':
-            dt = parse_date_text(text)
-            current_dt = dt if (dt and in_range(dt)) else None
-        elif typ == 'event' and current_dt and text:
-            if text.lower() not in JAYDEES_STANDARD:
-                e = make_event(current_dt, 'Jay-Dees', 'St Neots, Cambridgeshire', 'jaydees', text, url)
-                if e:
-                    events.append(e)
-            current_dt = None  # one event per date block
+    for dt, name in merge_same_day(raw_pairs):
+        e = make_event(dt, 'Jay-Dees', 'St Neots, Cambridgeshire', 'jaydees', name, url)
+        if e:
+            events.append(e)
 
-    print(f"Jay-Dees: {len(events)} events", file=sys.stderr)
+    print(f"Jay-Dees: {len(events)} events", file=_sys.stderr)
     return events
-
 
 
 # ─────────────────────────────────────────────────────────────
@@ -2208,7 +2293,7 @@ CLUB_META = {
     'Club Play':           ('Blackpool',           'clubplay',  'https://clubplay.net/events/'),
     'Xtasia':              ('West Bromwich',       'xtasia',    'https://www.xtasia.co.uk/page/2-months-diary'),
     'Naughty Pineapple':   ('Bristol',             'pineapple', 'https://thenaughtypineapple.co.uk/all-events/'),
-    'The Attic':           ('Scunthorpe',          'attic',     'https://theatticexperience.com/events-prices-2/'),
+    'The Attic':           ('Scunthorpe',          'attic',     'https://theatticexperience.com/events/'),
     'Townhouse':           ('Birkenhead, Wirral',  'townhouse', 'https://townhouseswingers.com/event-directory/'),
     'Swindon SC':          ('Swindon',             'swindon',   'https://swindonswingers.com'),
     'Club Alchemy':        ('Northwich',           'alchemy',   'https://www.clubalchemy.co.uk/events'),
@@ -2222,7 +2307,7 @@ CLUB_META = {
     'Club Ignite':         ('West Drayton',        'ignite',    'https://club-ignite.co.uk/events-new/'),
     'atlantisEVOLUTION':   ('Stoke-on-Trent',     'atlantis',  'http://www.atlantisevolution.co.uk/calendar.htm'),
     'Chameleons':          ('Darlaston',           'chameleons','https://www.chameleons.cc/darlaston-events/'),
-    'Jay-Dees':            ('St Neots',            'jaydees',   'https://jay-dees.com/events.html'),
+    'Jay-Dees':            ('St Neots',            'jaydees',   'https://www.jaydeesclub.com/blank-1'),
     'V2V':                 ('Nuneaton',            'v2v',       'https://v2v.uk/events'),
     'Chunky Muffins':      ('Boston, Lincolnshire','penthouse', 'https://www.chunkymuffins.co.uk'),
     'Club F':              ('Coventry',            'clubf',     'https://www.clubf.uk/events'),
@@ -2540,7 +2625,7 @@ CLUB_SCRAPERS = [
     ("Club Play",          "https://clubplay.net/events/",                                           scrape_clubplay),
     ("Xtasia",             "https://www.xtasia.co.uk/page/2-months-diary",                           scrape_xtasia),
     ("Naughty Pineapple",  "https://thenaughtypineapple.co.uk/all-events/",                          scrape_naughtypineapple),
-    ("The Attic",          "https://theatticexperience.com/events-prices-2/",                        scrape_attic),
+    ("The Attic",          "https://theatticexperience.com/events/",                                 scrape_attic),
     ("Townhouse",          "https://www.tickettailor.com/events/townhousewirralltd",                 None),
     ("Townhouse_old",      "https://www.tickettailor.com/events/townhousewirral",                      None),
     ("Swindon SC",         "https://swindonswingers.com",                                            None),
@@ -2558,7 +2643,7 @@ CLUB_SCRAPERS = [
     ("Club Ignite",        "https://club-ignite.co.uk/events-new/",                                  scrape_ignite),
     ("atlantisEVOLUTION",  "http://www.atlantisevolution.co.uk/calendar.htm",                        scrape_atlantis),
     ("Chameleons",         "https://www.chameleons.cc/darlaston-events/",                            scrape_chameleons),
-    ("Jay-Dees",           "https://jay-dees.com/events.html",                                       scrape_jaydees),
+    ("Jay-Dees",           "https://www.jaydeesclub.com/blank-1",                                     scrape_jaydees),
     ("V2V",                "https://v2v.uk/events",                                                  scrape_v2v),
     ("Chunky Muffins",     "https://www.chunkymuffins.co.uk",                                        scrape_chunkymuffins),
     ("Club F",             "https://www.clubf.uk/events",                                            scrape_clubf),
