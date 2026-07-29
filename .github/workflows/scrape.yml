@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: '0 2 * * *'
   workflow_dispatch:
-  push:
-    branches: [main]
 
 jobs:
   scrape:
@@ -46,4 +44,3 @@ jobs:
           git add index.html events_scraped.json
           git diff --staged --quiet || git commit -m "Auto-update events $(date +%Y-%m-%d)"
           git push origin main --force-with-lease
-
