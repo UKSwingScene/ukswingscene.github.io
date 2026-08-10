@@ -1,27 +1,5 @@
 [
   {
-    "d": "2026-08-09",
-    "m": "aug",
-    "day": "Sunday 9 August 2026",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "CLOSED",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "CLOSED at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-08-09",
-    "m": "aug",
-    "day": "Sunday 9 August 2026",
-    "club": "Purple Mamba",
-    "city": "Nottingham",
-    "cls": "mamba",
-    "event": "Illusion: from Mind Play East Midlands",
-    "url": "https://www.purplemambaclub.com/what-s-on-tickets",
-    "desc": "Illusion: from Mind Play East Midlands at Purple Mamba, Nottingham. Visit the website for full details and booking."
-  },
-  {
     "d": "2026-08-11",
     "m": "aug",
     "day": "Tuesday 11 August 2026",
@@ -64,6 +42,17 @@
     "event": "NEWBIES & NOTSOS PARTY NIGHT WITH CHRIS AND YVONNE!",
     "url": "https://www.tickettailor.com/events/townhousewirralltd",
     "desc": "NEWBIES & NOTSOS PARTY NIGHT WITH CHRIS AND YVONNE! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-13",
+    "m": "aug",
+    "day": "Thursday 13 August 2026",
+    "club": "Club Ignite",
+    "city": "West Drayton",
+    "cls": "ignite",
+    "event": "Silks &#038; Skins Spa Day",
+    "url": "https://club-ignite.co.uk/events-new/",
+    "desc": "Silks &#038; Skins Spa Day at Club Ignite, West Drayton. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-13",
@@ -117,7 +106,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Hot Garage Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Hot Garage Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -163,6 +152,17 @@
     "event": "Andy\u2019s Birthday \u2018Princesses & Punks\u2019 What are you? a Punk? a Princess? a Princess Punk? a Punk Princ",
     "url": "http://www.atlantisevolution.co.uk/calendar.htm",
     "desc": "Andy\u2019s Birthday \u2018Princesses & Punks\u2019 What are you? a Punk? a Princess? a Princess Punk? a Punk Princess? at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-14",
+    "m": "aug",
+    "day": "Friday 14 August 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "90s Party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "90s Party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-14",
@@ -271,7 +271,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Insatiable Desires &#8211; Country",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Insatiable Desires &#8211; Country at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -295,6 +295,28 @@
     "event": "CONFESSIONS",
     "url": "https://leboudoir.club/events/83041",
     "desc": "CONFESSIONS at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-15",
+    "m": "aug",
+    "day": "Saturday 15 August 2026",
+    "club": "Club Ignite",
+    "city": "West Drayton",
+    "cls": "ignite",
+    "event": "Couples &#038; Singles Saturday",
+    "url": "https://club-ignite.co.uk/events-new/",
+    "desc": "Couples &#038; Singles Saturday at Club Ignite, West Drayton. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-15",
+    "m": "aug",
+    "day": "Saturday 15 August 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "90s Party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "90s Party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-15",
@@ -377,6 +399,17 @@
     "d": "2026-08-20",
     "m": "aug",
     "day": "Thursday 20 August 2026",
+    "club": "Club Ignite",
+    "city": "West Drayton",
+    "cls": "ignite",
+    "event": "Silks &#038; Skins Spa Day",
+    "url": "https://club-ignite.co.uk/events-new/",
+    "desc": "Silks &#038; Skins Spa Day at Club Ignite, West Drayton. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-20",
+    "m": "aug",
+    "day": "Thursday 20 August 2026",
     "club": "V2V",
     "city": "Nuneaton, Warwickshire",
     "cls": "v2v",
@@ -425,7 +458,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -449,6 +482,17 @@
     "event": "Time to Share Your Secret Sins",
     "url": "https://leboudoir.club/events/82892",
     "desc": "Time to Share Your Secret Sins at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-21",
+    "m": "aug",
+    "day": "Friday 21 August 2026",
+    "club": "Club Ignite",
+    "city": "West Drayton",
+    "cls": "ignite",
+    "event": "Couples &#038; Singles Friday",
+    "url": "https://club-ignite.co.uk/events-new/",
+    "desc": "Couples &#038; Singles Friday at Club Ignite, West Drayton. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-21",
@@ -524,7 +568,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Movie Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Movie Night at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -548,6 +592,17 @@
     "event": "THE WILD THINGS PARTY",
     "url": "https://leboudoir.club/events/83066",
     "desc": "THE WILD THINGS PARTY at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-22",
+    "m": "aug",
+    "day": "Saturday 22 August 2026",
+    "club": "Club Ignite",
+    "city": "West Drayton",
+    "cls": "ignite",
+    "event": "Neon Social at Ignite",
+    "url": "https://club-ignite.co.uk/events-new/",
+    "desc": "Neon Social at Ignite at Club Ignite, West Drayton. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-22",
@@ -612,7 +667,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -647,6 +702,17 @@
     "event": "Bisexual Day At Pandora",
     "url": "https://www.pandoraswingers.com/event-diary",
     "desc": "Bisexual Day At Pandora at Pandoras, Armley, Leeds. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-27",
+    "m": "aug",
+    "day": "Thursday 27 August 2026",
+    "club": "Club Ignite",
+    "city": "West Drayton",
+    "cls": "ignite",
+    "event": "Silks &#038; Skins Spa Day",
+    "url": "https://club-ignite.co.uk/events-new/",
+    "desc": "Silks &#038; Skins Spa Day at Club Ignite, West Drayton. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-27",
@@ -700,7 +766,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -724,6 +790,17 @@
     "event": "EYES WIDE SHUT",
     "url": "https://leboudoir.club/events/88393",
     "desc": "EYES WIDE SHUT at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-28",
+    "m": "aug",
+    "day": "Friday 28 August 2026",
+    "club": "Club Ignite",
+    "city": "West Drayton",
+    "cls": "ignite",
+    "event": "Couples &#038; Singles Friday",
+    "url": "https://club-ignite.co.uk/events-new/",
+    "desc": "Couples &#038; Singles Friday at Club Ignite, West Drayton. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-28",
@@ -832,7 +909,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -856,6 +933,17 @@
     "event": "Black and White Party",
     "url": "https://leboudoir.club/events/83047",
     "desc": "Black and White Party at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-29",
+    "m": "aug",
+    "day": "Saturday 29 August 2026",
+    "club": "Club Ignite",
+    "city": "West Drayton",
+    "cls": "ignite",
+    "event": "Couples &#038; Ladies ONLY Saturday Party",
+    "url": "https://club-ignite.co.uk/events-new/",
+    "desc": "Couples &#038; Ladies ONLY Saturday Party at Club Ignite, West Drayton. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-29",
@@ -902,6 +990,17 @@
     "desc": "KINK KRAFT EMPORIUM - A MARKET FOR THE MISCHIEF MAKERS AND CURIOUS KINKSTERS! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
   },
   {
+    "d": "2026-08-30",
+    "m": "aug",
+    "day": "Sunday 30 August 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Bank Holiday Beach Party. The busiest party of them all",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Bank Holiday Beach Party. The busiest party of them all at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
     "d": "2026-08-31",
     "m": "aug",
     "day": "Monday 31 August 2026",
@@ -911,6 +1010,17 @@
     "event": "SPLAT ATTACK - GAME SHOW SPLOSHING EDITION!",
     "url": "https://www.tickettailor.com/events/townhousewirralltd",
     "desc": "SPLAT ATTACK - GAME SHOW SPLOSHING EDITION! at Townhouse, Birkenhead, Wirral. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-31",
+    "m": "aug",
+    "day": "Monday 31 August 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Bi bikini/mankini party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Bi bikini/mankini party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-31",
@@ -957,6 +1067,17 @@
     "desc": "Bisexual Day At Pandora at Pandoras, Armley, Leeds. Visit the website for full details and booking."
   },
   {
+    "d": "2026-09-03",
+    "m": "sep",
+    "day": "Thursday 3 September 2026",
+    "club": "Club Ignite",
+    "city": "West Drayton",
+    "cls": "ignite",
+    "event": "Silks &#038; Skins Spa Day",
+    "url": "https://club-ignite.co.uk/events-new/",
+    "desc": "Silks &#038; Skins Spa Day at Club Ignite, West Drayton. Visit the website for full details and booking."
+  },
+  {
     "d": "2026-09-04",
     "m": "sep",
     "day": "Friday 4 September 2026",
@@ -966,17 +1087,6 @@
     "event": "First Taste Friday",
     "url": "https://www.pandoraswingers.com/event-diary",
     "desc": "First Taste Friday at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-04",
-    "m": "sep",
-    "day": "Friday 4 September 2026",
-    "club": "Club Play",
-    "city": "Blackpool",
-    "cls": "clubplay",
-    "event": "BI-BI BABY CLUB PLAY\u2019s BIG BI PARTY",
-    "url": "https://clubplay.net/events/sat-1st-aug-%f0%9f%92%8b-bi-bi-baby-club-plays-big-bi-party-%f0%9f%8f%b3%ef%b8%8f%f0%9f%8c%88/",
-    "desc": "BI-BI BABY CLUB PLAY\u2019s BIG BI PARTY at Club Play, Blackpool. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-04",
@@ -1019,7 +1129,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Libertine",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Libertine at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1140,7 +1250,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Passion Casino",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Passion Casino at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1228,7 +1338,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1294,8 +1404,19 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-09-11",
+    "m": "sep",
+    "day": "Friday 11 September 2026",
+    "club": "Purple Mamba",
+    "city": "Nottingham",
+    "cls": "mamba",
+    "event": "Venom",
+    "url": "https://www.purplemambaclub.com/what-s-on-tickets",
+    "desc": "Venom at Purple Mamba, Nottingham. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-11",
@@ -1404,7 +1525,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Alternative Affair",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Alternative Affair at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1459,8 +1580,19 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Sunday Funday",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Sunday Funday at Liberty Elite, Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-09-13",
+    "m": "sep",
+    "day": "Sunday 13 September 2026",
+    "club": "Club Ignite",
+    "city": "West Drayton",
+    "cls": "ignite",
+    "event": "Back to School Late Summer BBQ",
+    "url": "https://club-ignite.co.uk/events-new/",
+    "desc": "Back to School Late Summer BBQ at Club Ignite, West Drayton. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-17",
@@ -1503,7 +1635,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1527,6 +1659,17 @@
     "event": "Hottie Hospital \u2018Doctors & Nurses\u2019 Medical Grade Sexy Fun",
     "url": "http://www.atlantisevolution.co.uk/calendar.htm",
     "desc": "Hottie Hospital \u2018Doctors & Nurses\u2019 Medical Grade Sexy Fun at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-09-18",
+    "m": "sep",
+    "day": "Friday 18 September 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "St Trinians back to school party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "St Trinians back to school party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-18",
@@ -1591,7 +1734,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Liberty Lounge",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Liberty Lounge at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1604,6 +1747,17 @@
     "event": "AUTUMN VIBES",
     "url": "https://leboudoir.club/events/82930",
     "desc": "AUTUMN VIBES at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-09-19",
+    "m": "sep",
+    "day": "Saturday 19 September 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "St Trinians back to school party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "St Trinians back to school party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-19",
@@ -1668,7 +1822,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1745,7 +1899,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Swingo Bingo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Swingo Bingo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1811,7 +1965,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "CUCKOLD COUPLES &#038; BULLS",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "CUCKOLD COUPLES &#038; BULLS at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1844,7 +1998,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Queens of the Scene",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Queens of the Scene at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1899,7 +2053,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Casino Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Casino Night at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1921,7 +2075,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1954,7 +2108,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Temptation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Temptation at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1998,7 +2152,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2031,7 +2185,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The CMnf Organisation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "The CMnf Organisation at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2042,7 +2196,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2086,7 +2240,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Naughties",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Naughties at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2152,7 +2306,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Halloween: The Beginning",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Halloween: The Beginning at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2185,7 +2339,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Halloween: The Second Coming",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Halloween: The Second Coming at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2207,7 +2361,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Halloween: The Hangover",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Halloween: The Hangover at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2240,7 +2394,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2264,6 +2418,17 @@
     "event": "HALLOWEEN SCREAMS",
     "url": "http://www.atlantisevolution.co.uk/calendar.htm",
     "desc": "HALLOWEEN SCREAMS at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-10-30",
+    "m": "oct",
+    "day": "Friday 30 October 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Halloween party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Halloween party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-31",
@@ -2328,7 +2493,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2343,6 +2508,17 @@
     "desc": "DIA DE LOS MUERTOS, EL FINAL - PART at Le Boudoir, City of London. Visit the website for full details and booking."
   },
   {
+    "d": "2026-10-31",
+    "m": "oct",
+    "day": "Saturday 31 October 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Halloween party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Halloween party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
     "d": "2026-11-01",
     "m": "nov",
     "day": "Sunday 1 November 2026",
@@ -2350,8 +2526,19 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-11-02",
+    "m": "nov",
+    "day": "Monday 2 November 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "bi sexual Halloween party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "bi sexual Halloween party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-03",
@@ -2383,7 +2570,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Libertine",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Libertine at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2416,7 +2603,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Firework Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Firework Night at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2449,7 +2636,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Sunday Funday",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Sunday Funday at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2482,7 +2669,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2515,7 +2702,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2559,7 +2746,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "DC &#8211; Kinky Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "DC &#8211; Kinky Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2572,6 +2759,17 @@
     "event": "Time to Share Your Secret Sins",
     "url": "https://leboudoir.club/events/82895",
     "desc": "Time to Share Your Secret Sins at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-11-20",
+    "m": "nov",
+    "day": "Friday 20 November 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Masquerade party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Masquerade party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-21",
@@ -2592,7 +2790,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Liberty Lounge",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Liberty Lounge at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2605,6 +2803,17 @@
     "event": "CONFESSIONS",
     "url": "https://leboudoir.club/events/83044",
     "desc": "CONFESSIONS at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-11-21",
+    "m": "nov",
+    "day": "Saturday 21 November 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Masquerade party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Masquerade party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-11-21",
@@ -2625,7 +2834,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2647,7 +2856,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2680,7 +2889,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Alternative Affair",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Alternative Affair at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2735,7 +2944,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Queens of the Scene",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Queens of the Scene at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2779,7 +2988,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "LiberateD",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "LiberateD at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2801,7 +3010,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2823,7 +3032,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Dangerous Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2845,7 +3054,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Ugly Xmas Jumper Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Ugly Xmas Jumper Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2867,7 +3076,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "THE GENTLEMEN&#8217;S CLUB",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "THE GENTLEMEN&#8217;S CLUB at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2889,7 +3098,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Passion Casino Xmas Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "Passion Casino Xmas Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2902,6 +3111,17 @@
     "event": "Santa's Secret Sin",
     "url": "https://leboudoir.club/events/82896",
     "desc": "Santa's Secret Sin at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-18",
+    "m": "dec",
+    "day": "Friday 18 December 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Christmas party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Christmas party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-12-19",
@@ -2933,7 +3153,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-09",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-10",
     "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2946,6 +3166,28 @@
     "event": "CHRISTMAS CONFESSIONS",
     "url": "https://leboudoir.club/events/83045",
     "desc": "CHRISTMAS CONFESSIONS at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-19",
+    "m": "dec",
+    "day": "Saturday 19 December 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Christmas party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Christmas party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-21",
+    "m": "dec",
+    "day": "Monday 21 December 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "Bi Christmas party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "Bi Christmas party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-12-25",
@@ -3001,6 +3243,17 @@
     "event": "NEW YEAR'S EVE PARTY",
     "url": "https://leboudoir.club/events/82932",
     "desc": "NEW YEAR'S EVE PARTY at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-31",
+    "m": "dec",
+    "day": "Thursday 31 December 2026",
+    "club": "Chameleons",
+    "city": "Darlaston, West Midlands",
+    "cls": "chameleons",
+    "event": "New Year\u2019s Eve party",
+    "url": "https://www.chameleons.cc/darlaston-events/",
+    "desc": "New Year\u2019s Eve party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2027-01-02",
@@ -3080,39 +3333,6 @@
     "desc": "WICKED: AROUND 100 COUPLES ATTENDING at Swindon SC, Swindon. Visit the website for full details and booking."
   },
   {
-    "d": "2027-08-05",
-    "m": "aug",
-    "day": "Thursday 5 August 2027",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "Pandora's dedicated kink and fetish night",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "Pandora's dedicated kink and fetish night at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-08-06",
-    "m": "aug",
-    "day": "Friday 6 August 2027",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "our dedicated bisexual day, all steam",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "our dedicated bisexual day, all steam at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-08-07",
-    "m": "aug",
-    "day": "Saturday 7 August 2027",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "First Taste Friday",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "First Taste Friday at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
     "d": "2027-08-07",
     "m": "aug",
     "day": "Saturday 7 August 2027",
@@ -3138,22 +3358,22 @@
     "d": "2027-08-08",
     "m": "aug",
     "day": "Sunday 8 August 2027",
-    "club": "Pandoras",
-    "city": "Armley, Leeds",
-    "cls": "pandora",
-    "event": "House of Debauchery",
-    "url": "https://www.pandoraswingers.com/event-diary",
-    "desc": "House of Debauchery at Pandoras, Armley, Leeds. Visit the website for full details and booking."
-  },
-  {
-    "d": "2027-08-08",
-    "m": "aug",
-    "day": "Sunday 8 August 2027",
     "club": "Xtasia",
     "city": "West Bromwich",
     "cls": "xtasia",
     "event": "Pedi-Play Time (Foot Fetish Party), Flirts: / It Was Not A Phase [Alt Rock Night #2]",
     "url": "https://www.xtasia.co.uk/page/2-months-diary",
     "desc": "Pedi-Play Time (Foot Fetish Party), Flirts: / It Was Not A Phase [Alt Rock Night #2] at Xtasia, West Bromwich. Visit the website for full details and booking."
+  },
+  {
+    "d": "2027-08-09",
+    "m": "aug",
+    "day": "Monday 9 August 2027",
+    "club": "Pandoras",
+    "city": "Armley, Leeds",
+    "cls": "pandora",
+    "event": "CLOSED",
+    "url": "https://www.pandoraswingers.com/event-diary",
+    "desc": "CLOSED at Pandoras, Armley, Leeds. Visit the website for full details and booking."
   }
 ]
