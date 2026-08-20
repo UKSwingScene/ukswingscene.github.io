@@ -1,16 +1,5 @@
 [
   {
-    "d": "2026-08-19",
-    "m": "aug",
-    "day": "Wednesday 19 August 2026",
-    "club": "Penthouse Playrooms",
-    "city": "Dunstable",
-    "cls": "penthouse",
-    "event": "Wicked Wednesday - Daytime Play Party",
-    "url": "https://penthouse-playrooms.co.uk/event/2094",
-    "desc": "Wicked Wednesday - Daytime Play Party at Penthouse Playrooms, Dunstable. Visit the website for full details and booking."
-  },
-  {
     "d": "2026-08-20",
     "m": "aug",
     "day": "Thursday 20 August 2026",
@@ -73,7 +62,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "DC&#8217;s Kinky Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "DC&#8217;s Kinky Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -97,6 +86,17 @@
     "event": "Time to Share Your Secret Sins",
     "url": "https://leboudoir.club/events/82892",
     "desc": "Time to Share Your Secret Sins at Le Boudoir, City of London. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-08-21",
+    "m": "aug",
+    "day": "Friday 21 August 2026",
+    "club": "Penthouse Playrooms",
+    "city": "Dunstable",
+    "cls": "penthouse",
+    "event": "KinkyTease - Post Apocalyptic Party",
+    "url": "https://penthouse-playrooms.co.uk/event/2089",
+    "desc": "KinkyTease - Post Apocalyptic Party at Penthouse Playrooms, Dunstable. Visit the website for full details and booking."
   },
   {
     "d": "2026-08-21",
@@ -183,7 +183,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Movie Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Movie Night at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -271,7 +271,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -359,7 +359,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -491,7 +491,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -655,9 +655,9 @@
     "club": "Naughty Pineapple",
     "city": "Leicester",
     "cls": "pineapple",
-    "event": "Pride Party Night",
+    "event": "Pride party night",
     "url": "https://thenaughtypineapple.co.uk/all-events/",
-    "desc": "Pride Party Night at Naughty Pineapple, Leicester. Visit the website for full details and booking."
+    "desc": "Pride party night at Naughty Pineapple, Leicester. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-04",
@@ -689,7 +689,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Libertine",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Libertine at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -765,9 +765,9 @@
     "club": "Naughty Pineapple",
     "city": "Leicester",
     "cls": "pineapple",
-    "event": "Pride Party Night",
+    "event": "Pride party night",
     "url": "https://thenaughtypineapple.co.uk/all-events/",
-    "desc": "Pride Party Night at Naughty Pineapple, Leicester. Visit the website for full details and booking."
+    "desc": "Pride party night at Naughty Pineapple, Leicester. Visit the website for full details and booking."
   },
   {
     "d": "2026-09-05",
@@ -810,7 +810,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Passion Casino",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Passion Casino at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -898,7 +898,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -975,7 +975,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1096,7 +1096,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Alternative Affair",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Alternative Affair at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1184,7 +1184,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Sunday Funday",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Sunday Funday at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1261,7 +1261,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "DC&#8217;s &#8211; Wild West",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "DC&#8217;s &#8211; Wild West at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1393,7 +1393,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Liberty Lounge",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Liberty Lounge at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1503,7 +1503,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1554,17 +1554,6 @@
     "d": "2026-09-26",
     "m": "sep",
     "day": "Saturday 26 September 2026",
-    "club": "Naughty Pineapple",
-    "city": "Leicester",
-    "cls": "pineapple",
-    "event": "Pirate Party Night &#8211; Ahhh",
-    "url": "https://thenaughtypineapple.co.uk/all-events/",
-    "desc": "Pirate Party Night &#8211; Ahhh at Naughty Pineapple, Leicester. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-09-26",
-    "m": "sep",
-    "day": "Saturday 26 September 2026",
     "club": "The Attic",
     "city": "Derby",
     "cls": "attic",
@@ -1591,7 +1580,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Swingo Bingo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Swingo Bingo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1668,7 +1657,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "CUCKOLD COUPLES &#038; BULLS",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "CUCKOLD COUPLES &#038; BULLS at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1701,7 +1690,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Queens of the Scene",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Queens of the Scene at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1722,9 +1711,9 @@
     "club": "atlantisEVOLUTION",
     "city": "Stoke-on-Trent",
     "cls": "atlantis",
-    "event": "GOTH | DARK | PUNK | ROCK Let loose your Dark Side",
+    "event": "Jo\u2019s Birthday GOTH | DARK | PUNK | ROCK Let loose your Dark Side",
     "url": "http://www.atlantisevolution.co.uk/calendar.htm",
-    "desc": "GOTH | DARK | PUNK | ROCK Let loose your Dark Side at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
+    "desc": "Jo\u2019s Birthday GOTH | DARK | PUNK | ROCK Let loose your Dark Side at atlantisEVOLUTION, Stoke-on-Trent. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-02",
@@ -1777,9 +1766,9 @@
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
-    "event": "Casino Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
-    "desc": "Casino Night at Liberty Elite, Midlands. Visit the website for full details and booking."
+    "event": "Insatiable Desires UNTAMED",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
+    "desc": "Insatiable Desires UNTAMED at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-03",
@@ -1811,7 +1800,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1844,7 +1833,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Temptation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Temptation at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1899,7 +1888,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1943,7 +1932,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The CMnf Organisation",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "The CMnf Organisation at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1954,7 +1943,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves: ROCKTOBER",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Dangerous Curves: ROCKTOBER at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2009,7 +1998,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Naughties",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Naughties at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2097,7 +2086,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Halloween: The Beginning",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Halloween: The Beginning at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2141,7 +2130,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Halloween: The Second Coming",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Halloween: The Second Coming at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2163,7 +2152,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Halloween: The Hangover",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Halloween: The Hangover at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2196,7 +2185,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2231,17 +2220,6 @@
     "event": "Halloween party",
     "url": "https://www.chameleons.cc/darlaston-events/",
     "desc": "Halloween party at Chameleons, Darlaston, West Midlands. Visit the website for full details and booking."
-  },
-  {
-    "d": "2026-10-31",
-    "m": "oct",
-    "day": "Saturday 31 October 2026",
-    "club": "Naughty Pineapple",
-    "city": "Leicester",
-    "cls": "pineapple",
-    "event": "Halloween Party Night",
-    "url": "https://thenaughtypineapple.co.uk/all-events/",
-    "desc": "Halloween Party Night at Naughty Pineapple, Leicester. Visit the website for full details and booking."
   },
   {
     "d": "2026-10-31",
@@ -2295,7 +2273,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Secret House",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Secret House at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2328,7 +2306,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2372,7 +2350,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Libertine",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Libertine at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2405,7 +2383,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Firework Night",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Firework Night at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2438,7 +2416,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Sunday Funday",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Sunday Funday at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2471,7 +2449,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "The Hot Wife Club",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "The Hot Wife Club at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2504,7 +2482,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2548,7 +2526,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "DC&#8217;s &#8211; Kinky Curves",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "DC&#8217;s &#8211; Kinky Curves at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2592,7 +2570,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Liberty Lounge",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Liberty Lounge at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2636,7 +2614,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2658,7 +2636,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2691,7 +2669,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Alternative Affair",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Alternative Affair at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2746,7 +2724,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Queens of the Scene",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Queens of the Scene at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2790,7 +2768,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "LiberateD",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "LiberateD at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2812,7 +2790,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2834,7 +2812,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves &#8211; MISMATCH",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Dangerous Curves &#8211; MISMATCH at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2856,7 +2834,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Ugly Xmas Jumper Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Ugly Xmas Jumper Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2889,7 +2867,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "THE GENTLEMEN&#8217;S CLUB",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "THE GENTLEMEN&#8217;S CLUB at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2911,7 +2889,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Passion Casino Xmas Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Passion Casino Xmas Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2966,7 +2944,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "EUPHORIA",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "EUPHORIA at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -2999,7 +2977,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Swing Into It Social",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Swing Into It Social at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -3010,7 +2988,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Closed",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-19",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-08-20",
     "desc": "Closed at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
