@@ -1,16 +1,5 @@
 [
   {
-    "d": "2026-11-22",
-    "m": "nov",
-    "day": "Sunday 22 November 2026",
-    "club": "Purple Mamba",
-    "city": "Nottingham",
-    "cls": "mamba",
-    "event": "Illusion: from Mind Play East Midlands",
-    "url": "https://www.purplemambaclub.com/what-s-on-tickets",
-    "desc": "Illusion: from Mind Play East Midlands at Purple Mamba, Nottingham. Visit the website for full details and booking."
-  },
-  {
     "d": "2026-11-26",
     "m": "nov",
     "day": "Thursday 26 November 2026",
@@ -62,7 +51,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -135,6 +124,17 @@
     "d": "2026-11-28",
     "m": "nov",
     "day": "Saturday 28 November 2026",
+    "club": "Club Play",
+    "city": "Blackpool",
+    "cls": "clubplay",
+    "event": "DAy OF ThE DEAd @",
+    "url": "https://clubplay.net/events/sat-28th-november-day-of-the-dead-club-play/",
+    "desc": "DAy OF ThE DEAd @ at Club Play, Blackpool. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-11-28",
+    "m": "nov",
+    "day": "Saturday 28 November 2026",
     "club": "The Attic",
     "city": "Derby",
     "cls": "attic",
@@ -161,7 +161,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Alternative Affair \u00d7 Insatiable Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "Alternative Affair \u00d7 Insatiable Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -271,7 +271,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Queens of the Scene: The Sparkling Soir\u00e9e",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "Queens of the Scene: The Sparkling Soir\u00e9e at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -381,7 +381,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "LiberateD &#8211; Naughty Neon Noel",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "LiberateD &#8211; Naughty Neon Noel at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -443,6 +443,17 @@
     "d": "2026-12-06",
     "m": "dec",
     "day": "Sunday 6 December 2026",
+    "club": "The Attic",
+    "city": "Derby",
+    "cls": "attic",
+    "event": "Holy Fuckhouse",
+    "url": "https://theatticexperience.com/events/",
+    "desc": "Holy Fuckhouse at The Attic, Derby. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-06",
+    "m": "dec",
+    "day": "Sunday 6 December 2026",
     "club": "Swindon SC",
     "city": "Swindon",
     "cls": "swindon",
@@ -458,7 +469,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -471,6 +482,17 @@
     "event": "Doggies Tea Party",
     "url": "https://www.purplemambaclub.com/what-s-on-tickets",
     "desc": "Doggies Tea Party at Purple Mamba, Nottingham. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-09",
+    "m": "dec",
+    "day": "Wednesday 9 December 2026",
+    "club": "Decadance",
+    "city": "Rochdale",
+    "cls": "decadance",
+    "event": "BDSM KInk Munch",
+    "url": "https://www.decadanceswingersclub.com/what-s-on-at-decadance/events-coming-soon/09-12-bdsm-kink-munch",
+    "desc": "This website uses cookies to enhance your experience and display tailored ads. By clicking \"Accept\", you consent to the use of all the cookies."
   },
   {
     "d": "2026-12-10",
@@ -524,7 +546,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves &#8211; MISMATCH",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "Dangerous Curves &#8211; MISMATCH at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -537,6 +559,17 @@
     "event": "Venom",
     "url": "https://www.purplemambaclub.com/what-s-on-tickets",
     "desc": "Venom at Purple Mamba, Nottingham. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-11",
+    "m": "dec",
+    "day": "Friday 11 December 2026",
+    "club": "Decadance",
+    "city": "Rochdale",
+    "cls": "decadance",
+    "event": "Dans Birthday Party",
+    "url": "https://www.decadanceswingersclub.com/what-s-on-at-decadance/events-coming-soon/11-12-dans-birthday-party",
+    "desc": "This website uses cookies to enhance your experience and display tailored ads. By clicking \"Accept\", you consent to the use of all the cookies."
   },
   {
     "d": "2026-12-11",
@@ -568,7 +601,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Ugly Xmas Jumper Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "Ugly Xmas Jumper Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -623,7 +656,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "#8211; SOLD OUT &#8211;",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "#8211; SOLD OUT &#8211; at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -689,7 +722,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Passion Casino Xmas Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "Passion Casino Xmas Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -777,7 +810,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "CHRISTMAS &#038; CHILL",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "CHRISTMAS &#038; CHILL at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -854,7 +887,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Closed",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "Closed at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -898,7 +931,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "New Year\u2019s Eve Eve Masquerade Ball",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "New Year\u2019s Eve Eve Masquerade Ball at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -942,7 +975,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "New Years Eve Masquerade Ball",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-22",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-23",
     "desc": "New Years Eve Masquerade Ball at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1037,6 +1070,17 @@
     "d": "2027-01-08",
     "m": "jan",
     "day": "Friday 8 January 2027",
+    "club": "Purple Mamba",
+    "city": "Nottingham",
+    "cls": "mamba",
+    "event": "The Unfaithfuls - A Very Kinky Murder Mystery Evening!",
+    "url": "https://www.purplemambaclub.com/what-s-on-tickets",
+    "desc": "The Unfaithfuls - A Very Kinky Murder Mystery Evening! at Purple Mamba, Nottingham. Visit the website for full details and booking."
+  },
+  {
+    "d": "2027-01-08",
+    "m": "jan",
+    "day": "Friday 8 January 2027",
     "club": "V2V",
     "city": "Nuneaton, Warwickshire",
     "cls": "v2v",
@@ -1065,6 +1109,17 @@
     "event": "Vinyl Voyeurs - Bring Your Own Music Party",
     "url": "https://v2v.uk/events/vinyl-voyeurs-bring-your-own-music-party-hosted-by-curiousdubsters-2",
     "desc": "Vinyl Voyeurs - Bring Your Own Music Party at V2V, Nuneaton, Warwickshire. Visit the website for full details and booking."
+  },
+  {
+    "d": "2027-01-15",
+    "m": "jan",
+    "day": "Friday 15 January 2027",
+    "club": "Purple Mamba",
+    "city": "Nottingham",
+    "cls": "mamba",
+    "event": "'Newbie' Couples & Single Ladies Workshop",
+    "url": "https://www.purplemambaclub.com/what-s-on-tickets",
+    "desc": "'Newbie' Couples & Single Ladies Workshop at Purple Mamba, Nottingham. Visit the website for full details and booking."
   },
   {
     "d": "2027-01-15",
