@@ -51,7 +51,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dark Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "Dark Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -161,7 +161,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Alternative Affair \u00d7 Insatiable Desires",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "Alternative Affair \u00d7 Insatiable Desires at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -271,7 +271,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Queens of the Scene: The Sparkling Soir\u00e9e",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "Queens of the Scene: The Sparkling Soir\u00e9e at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -381,7 +381,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "LiberateD &#8211; Naughty Neon Noel",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "LiberateD &#8211; Naughty Neon Noel at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -469,7 +469,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Embargo",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "Embargo at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -557,7 +557,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Dangerous Curves &#8211; MISMATCH",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "Dangerous Curves &#8211; MISMATCH at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -612,7 +612,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Ugly Xmas Jumper Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "Ugly Xmas Jumper Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -667,7 +667,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "#8211; SOLD OUT &#8211;",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "#8211; SOLD OUT &#8211; at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -729,11 +729,22 @@
     "d": "2026-12-18",
     "m": "dec",
     "day": "Friday 18 December 2026",
+    "club": "Naughty Pineapple",
+    "city": "Leicester",
+    "cls": "pineapple",
+    "event": "BI INCLUSION XMAS PARTY NIGHT",
+    "url": "https://thenaughtypineapple.co.uk/all-events/",
+    "desc": "BI INCLUSION XMAS PARTY NIGHT at Naughty Pineapple, Leicester. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-18",
+    "m": "dec",
+    "day": "Friday 18 December 2026",
     "club": "Liberty Elite",
     "city": "Midlands",
     "cls": "liberty",
     "event": "Passion Casino Xmas Party",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "Passion Casino Xmas Party at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -795,6 +806,17 @@
     "d": "2026-12-19",
     "m": "dec",
     "day": "Saturday 19 December 2026",
+    "club": "Naughty Pineapple",
+    "city": "Leicester",
+    "cls": "pineapple",
+    "event": "CHRISTMAS PARTY NIGHT",
+    "url": "https://thenaughtypineapple.co.uk/all-events/",
+    "desc": "CHRISTMAS PARTY NIGHT at Naughty Pineapple, Leicester. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-19",
+    "m": "dec",
+    "day": "Saturday 19 December 2026",
     "club": "The Attic",
     "city": "Derby",
     "cls": "attic",
@@ -832,7 +854,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "CHRISTMAS &#038; CHILL",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "CHRISTMAS &#038; CHILL at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -909,7 +931,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "Closed",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "Closed at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -953,7 +975,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "New Year\u2019s Eve Eve Masquerade Ball",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "New Year\u2019s Eve Eve Masquerade Ball at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -982,6 +1004,17 @@
     "d": "2026-12-31",
     "m": "dec",
     "day": "Thursday 31 December 2026",
+    "club": "Naughty Pineapple",
+    "city": "Leicester",
+    "cls": "pineapple",
+    "event": "NEW YEARS EVE PARTY",
+    "url": "https://thenaughtypineapple.co.uk/all-events/",
+    "desc": "NEW YEARS EVE PARTY at Naughty Pineapple, Leicester. Visit the website for full details and booking."
+  },
+  {
+    "d": "2026-12-31",
+    "m": "dec",
+    "day": "Thursday 31 December 2026",
     "club": "The Attic",
     "city": "Derby",
     "cls": "attic",
@@ -997,7 +1030,7 @@
     "city": "Midlands",
     "cls": "liberty",
     "event": "New Years Eve Masquerade Ball",
-    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-25",
+    "url": "https://libertyelite.co.uk/events/list/?tribe-bar-date=2026-11-26",
     "desc": "New Years Eve Masquerade Ball at Liberty Elite, Midlands. Visit the website for full details and booking."
   },
   {
@@ -1268,6 +1301,17 @@
     "d": "2027-01-30",
     "m": "jan",
     "day": "Saturday 30 January 2027",
+    "club": "Club Alchemy",
+    "city": "Northwich",
+    "cls": "alchemy",
+    "event": "Temptation",
+    "url": "https://www.clubalchemy.co.uk/events/temptation-2027-01-30-TJ2r",
+    "desc": "Temptation at Club Alchemy, Northwich. Visit the website for full details and booking."
+  },
+  {
+    "d": "2027-01-30",
+    "m": "jan",
+    "day": "Saturday 30 January 2027",
     "club": "V2V",
     "city": "Nuneaton, Warwickshire",
     "cls": "v2v",
@@ -1285,6 +1329,17 @@
     "event": "IT WASNT A PHASE Midnight & Mischief",
     "url": "https://themiragelincoln.co.uk/events",
     "desc": "IT WASNT A PHASE Midnight & Mischief at The Mirage, Lincoln. Visit the website for full details and booking."
+  },
+  {
+    "d": "2027-02-06",
+    "m": "feb",
+    "day": "Saturday 6 February 2027",
+    "club": "Club Alchemy",
+    "city": "Northwich",
+    "cls": "alchemy",
+    "event": "Fuckalicious",
+    "url": "https://www.clubalchemy.co.uk/events/fuckalicious-2027-02-06-8pUP",
+    "desc": "Fuckalicious at Club Alchemy, Northwich. Visit the website for full details and booking."
   },
   {
     "d": "2027-02-07",
